@@ -1,21 +1,19 @@
-// Load node and edge data
 const nodeFile = 'node.csv';
 const edgeFile = 'edge.csv';
 
+// Load CSV data
 Promise.all([d3.csv(nodeFile), d3.csv(edgeFile)]).then(([nodes, edges]) => {
-  const nodeMap = new Map(nodes.map(node => [node.id, node]));
-
-  const links = edges.map(edge => ({
-    source: edge.source,
-    target: edge.target,
-  }));
-
   const data = {
     nodes: nodes.map(node => ({
-      id: node.id,
-      label: node.label,
+      id: node["entity:ID"],
+      name: node.name,
+      label: node[":LABEL"]
     })),
-    links: links,
+    links: edges.map(edge => ({
+      source: edge.source,
+      target: edge.target,
+      type: edge.contain
+    }))
   };
 
   drawGraph(data);
@@ -27,8 +25,8 @@ function drawGraph(data) {
 
   const svg = d3.select('svg');
   const simulation = d3.forceSimulation(data.nodes)
-    .force('link', d3.forceLink(data.links).id(d => d.id).distance(100))
-    .force('charge', d3.forceManyBody().strength(-300))
+    .force('link', d3.forceLink(data.links).id(d => d.id).distance(150))
+    .force('charge', d3.forceManyBody().strength(-400))
     .force('center', d3.forceCenter(width / 2, height / 2));
 
   const link = svg.append('g')
@@ -53,7 +51,7 @@ function drawGraph(data) {
   node.append('text')
     .attr('dx', 12)
     .attr('dy', '.35em')
-    .text(d => d.label);
+    .text(d => d.name);
 
   simulation.on('tick', () => {
     link
@@ -68,8 +66,8 @@ function drawGraph(data) {
   // Search functionality
   d3.select('#searchBox').on('input', function () {
     const searchTerm = this.value.toLowerCase();
-    node.selectAll('text')
-      .style('fill', d => d.label.toLowerCase().includes(searchTerm) ? 'red' : 'black');
+    node.selectAll('circle')
+      .classed('highlight', d => d.name.toLowerCase().includes(searchTerm));
   });
 
   function dragstarted(event, d) {
