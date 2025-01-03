@@ -3,34 +3,94 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Variant Hierarchy</title>
-  <script src="https://unpkg.com/cytoscape/dist/cytoscape.min.js"></script>
+  <title>Dynamic Hierarchy Visualization</title>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <style>
+    .node circle {
+      fill: #69b3a2;
+      stroke: #555;
+      stroke-width: 2px;
+    }
+    .node text {
+      font-size: 12px;
+      font-family: sans-serif;
+    }
+    .link {
+      fill: none;
+      stroke: #ccc;
+      stroke-width: 2px;
+    }
+  </style>
 </head>
 <body>
-  <h1>Variant Hierarchy Visualization</h1>
-  <div id="cy" style="width: 100%; height: 500px;"></div>
+  <h1>Dynamic Hierarchy Visualization</h1>
+  <div id="tree-container" style="width: 100%; height: 600px;"></div>
   <script>
-    const data = {
-      nodes: [
-        { data: { id: '1', label: 'Variant A' } },
-        { data: { id: '2', label: 'Variant B' } },
-        { data: { id: '3', label: 'Sub-Variant A1' } }
-      ],
-      edges: [
-        { data: { source: '1', target: '3' } },
-        { data: { source: '1', target: '2' } }
-      ]
-    };
+    // Set dimensions
+    const width = 960, height = 600;
 
-    const cy = cytoscape({
-      container: document.getElementById('cy'),
-      elements: data,
-      layout: { name: 'breadthfirst' },
-      style: [
-        { selector: 'node', style: { 'label': 'data(label)', 'background-color': '#0074D9' } },
-        { selector: 'edge', style: { 'line-color': '#aaa' } }
-      ]
+    // Create SVG container
+    const svg = d3.select("#tree-container")
+      .append("svg")
+      .attr("width", width)
+      .attr("height", height)
+      .append("g")
+      .attr("transform", "translate(40,40)");
+
+    const treeLayout = d3.tree().size([height - 100, width - 200]);
+
+    // Load CSV files
+    Promise.all([
+      d3.csv("node.csv"),
+      d3.csv("edge.csv")
+    ]).then(([nodes, edges]) => {
+      // Map nodes and edges to hierarchical structure
+      const idMap = {};
+      nodes.forEach(d => idMap[d.id] = { ...d, children: [] });
+
+      edges.forEach(edge => {
+        idMap[edge.source].children.push(idMap[edge.target]);
+      });
+
+      const root = d3.hierarchy(idMap["1"]); // Assuming "1" is the root node ID
+      const treeData = treeLayout(root);
+
+      // Links
+      svg.selectAll(".link")
+        .data(treeData.links())
+        .enter()
+        .append("path")
+        .attr("class", "link")
+        .attr("d", d3.linkHorizontal()
+          .x(d => d.y)
+          .y(d => d.x));
+
+      // Nodes
+      const nodesGroup = svg.selectAll(".node")
+        .data(treeData.descendants())
+        .enter()
+        .append("g")
+        .attr("class", "node")
+        .attr("transform", d => `translate(${d.y},${d.x})`);
+
+      nodesGroup.append("circle")
+        .attr("r", 5);
+
+      nodesGroup.append("text")
+        .attr("dx", 10)
+        .attr("dy", 3)
+        .text(d => d.data.label);
+
+      // Add expand/collapse functionality
+      nodesGroup.on("click", (event, d) => {
+        d.children = d.children ? null : d._children;
+        update(treeData);
+      });
     });
+
+    function update(source) {
+      // Update logic for dynamic changes can be added here if needed
+    }
   </script>
 </body>
 </html>
