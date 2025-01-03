@@ -1,39 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hierarchical Tree Visualization</title>
-  <script src="https://d3js.org/d3.v7.min.js"></script>
-  <style>
-    .node circle {
-      fill: #69b3a2;
-      stroke: #555;
-      stroke-width: 1.5px;
-    }
-    .node text {
-      font: 12px sans-serif;
-    }
-    .link {
-      fill: none;
-      stroke: #999;
-      stroke-opacity: 0.6;
-      stroke-width: 1.5px;
-    }
-    #searchBox {
-      margin: 10px;
-      padding: 5px;
-      font-size: 14px;
-    }
-    .highlight {
-      fill: red !important;
-      stroke: red !important;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hierarchy Visualization</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+        .link {
+            fill: none;
+            stroke: #ccc;
+            stroke-width: 2px;
+        }
+        .node circle {
+            fill: #69b3a2;
+            stroke: steelblue;
+            stroke-width: 2px;
+        }
+        .node text {
+            font: 12px sans-serif;
+        }
+    </style>
 </head>
 <body>
-  <input id="searchBox" type="text" placeholder="Search node by name..." />
-  <svg width="960" height="600"></svg>
-  <script src="script.js"></script>
+    <h1>Hierarchy Visualization</h1>
+    <svg width="960" height="600"></svg>
+    <script src="script.js"></script>
 </body>
 </html>
