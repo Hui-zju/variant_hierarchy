@@ -1,10 +1,2337 @@
 entity:ID,name,:LABEL
-e0,ZRSR2 oncogenic mutation,Entity
-e1,ZRSR2 mutation,Entity
-e2,ZNRF3 oncogenic mutation,Entity
-e3,ZNRF3 mutation,Entity
-e4,ZNF430-JAK2 fusion,Entity
-e5,ZNF274-JAK2 fusion,Entity
-e6,ZMYM2-FGFR1 fusion,Entity
-e7,ZMIZ1-ABL1 fusion,Entity
-
+e0,root,Entity
+e1,ZRSR2 oncogenic mutation,Entity
+e2,ZRSR2 mutation,Entity
+e3,ZNRF3 oncogenic mutation,Entity
+e4,ZNRF3 mutation,Entity
+e5,ZNF430-JAK2 fusion,Entity
+e6,ZNF274-JAK2 fusion,Entity
+e7,ZMYM2-FGFR1 fusion,Entity
+e8,ZMIZ1-ABL1 fusion,Entity
+e9,ZKSCAN1-BRAF fusion,Entity
+e10,ZFTA-RELA fusion,Entity
+e11,ZEB1 mutation,Entity
+e12,ZEB1 expression,Entity
+e13,YAP1-TFE3 fusion,Entity
+e14,YAP1-MAMLD1 fusion,Entity
+e15,YAP1-FAM118B fusion,Entity
+e16,YAP1 fusion,Entity
+e17,XRCC1 mutation,Entity
+e18,XRCC1 R194W,Entity
+e19,XRCC1 Q399R,Entity
+e20,WWTR1-CAMTA1 fusion,Entity
+e21,WWTR1 fusion,Entity
+e22,WT1 oncogenic mutation,Entity
+e23,WT1 mutation,Entity
+e24,VHL oncogenic mutation,Entity
+e25,VHL mutation,Entity
+e26,VHL loss of function,Entity
+e27,VHL fusion,Entity
+e28,VHL exon 2 in-frame deletion,Entity
+e29,VHL exon 1 in-frame deletion,Entity
+e30,VHL deletion,Entity
+e31,VHL Y98fs,Entity
+e32,VHL Y98H,Entity
+e33,VHL Y98C,Entity
+e34,VHL Y185*,Entity
+e35,VHL Y175N,Entity
+e36,VHL Y175D,Entity
+e37,VHL Y175C,Entity
+e38,VHL Y175*,Entity
+e39,VHL Y156N,Entity
+e40,VHL Y156D,Entity
+e41,VHL Y156C,Entity
+e42,VHL Y156*,Entity
+e43,VHL Y112H,Entity
+e44,VHL Y112*,Entity
+e45,VHL W88fs,Entity
+e46,VHL W88S,Entity
+e47,VHL W88R,Entity
+e48,VHL W88*,Entity
+e49,VHL W8*,Entity
+e50,VHL W117fs,Entity
+e51,VHL W117C,Entity
+e52,VHL V87fs,Entity
+e53,VHL V84M,Entity
+e54,VHL V84L,Entity
+e55,VHL V74G,Entity
+e56,VHL V66del,Entity
+e57,VHL V66Gfs*89,Entity
+e58,VHL V62Cfs*5,Entity
+e59,VHL V194fs,Entity
+e60,VHL V181fs,Entity
+e61,VHL V170G,Entity
+e62,VHL V170F,Entity
+e63,VHL V170D,Entity
+e64,VHL V166F,Entity
+e65,VHL V166D,Entity
+e66,VHL V166A,Entity
+e67,VHL V155L,Entity
+e68,VHL V155G,Entity
+e69,VHL V155E,Entity
+e70,VHL V130L,Entity
+e71,VHL T202fs,Entity
+e72,VHL T157fs,Entity
+e73,VHL T157I,Entity
+e74,VHL T152fs,Entity
+e75,VHL T133fs,Entity
+e76,VHL T105P,Entity
+e77,VHL S80fs,Entity
+e78,VHL S80R,Entity
+e79,VHL S80N,Entity
+e80,VHL S80I,Entity
+e81,VHL S72fs,Entity
+e82,VHL S72P,Entity
+e83,VHL S68W,Entity
+e84,VHL S68P,Entity
+e85,VHL S65fs,Entity
+e86,VHL S65W,Entity
+e87,VHL S65P,Entity
+e88,VHL S65L,Entity
+e89,VHL S65A,Entity
+e90,VHL S65*,Entity
+e91,VHL S183*,Entity
+e92,VHL S111fs,Entity
+e93,VHL S111R,Entity
+e94,VHL S111N,Entity
+e95,VHL S111C,Entity
+e96,VHL R82_V84del,Entity
+e97,VHL R82P,Entity
+e98,VHL R79_S80del,Entity
+e99,VHL R79P,Entity
+e100,VHL R69fs,Entity
+e101,VHL R64P,Entity
+e102,VHL R60fs,Entity
+e103,VHL R200W,Entity
+e104,VHL R177fs,Entity
+e105,VHL R177*,Entity
+e106,VHL R176fs,Entity
+e107,VHL R167W,Entity
+e108,VHL R167Q,Entity
+e109,VHL R167P,Entity
+e110,VHL R167L,Entity
+e111,VHL R161Q,Entity
+e112,VHL R161P,Entity
+e113,VHL R161G,Entity
+e114,VHL R161*,Entity
+e115,VHL R120fs,Entity
+e116,VHL R120G,Entity
+e117,VHL R113fs,Entity
+e118,VHL R113*,Entity
+e119,VHL R108dup,Entity
+e120,VHL R107P,Entity
+e121,VHL R107H,Entity
+e122,VHL R107G,Entity
+e123,VHL Q96_P97delinsH,Entity
+e124,VHL Q96*,Entity
+e125,VHL Q73fs,Entity
+e126,VHL Q73*,Entity
+e127,VHL Q195*,Entity
+e128,VHL Q164R,Entity
+e129,VHL Q164L,Entity
+e130,VHL Q164*,Entity
+e131,VHL Q145*,Entity
+e132,VHL Q132P,Entity
+e133,VHL Q132*,Entity
+e134,VHL P86fs,Entity
+e135,VHL P86S,Entity
+e136,VHL P86R,Entity
+e137,VHL P86L,Entity
+e138,VHL P86A,Entity
+e139,VHL P81S,Entity
+e140,VHL P71fs,Entity
+e141,VHL P61fs,Entity
+e142,VHL P59fs,Entity
+e143,VHL P40fs,Entity
+e144,VHL P25L,Entity
+e145,VHL P154fs,Entity
+e146,VHL P154L,Entity
+e147,VHL P146fs,Entity
+e148,VHL P138T,Entity
+e149,VHL P138R,Entity
+e150,VHL P103fs,Entity
+e151,VHL P102fs,Entity
+e152,VHL N7D,Entity
+e153,VHL N78T,Entity
+e154,VHL N78S,Entity
+e155,VHL N78I,Entity
+e156,VHL N78H,Entity
+e157,VHL N150fs,Entity
+e158,VHL N150S,Entity
+e159,VHL N131fs,Entity
+e160,VHL N131T,Entity
+e161,VHL N131S,Entity
+e162,VHL N131K,Entity
+e163,VHL M54fs,Entity
+e164,VHL M54Ifs,Entity
+e165,VHL M1fs,Entity
+e166,VHL M1?,Entity
+e167,VHL L89P,Entity
+e168,VHL L85P,Entity
+e169,VHL L198Q,Entity
+e170,VHL L188fs,Entity
+e171,VHL L188V,Entity
+e172,VHL L188R,Entity
+e173,VHL L188Q,Entity
+e174,VHL L188P,Entity
+e175,VHL L184R,Entity
+e176,VHL L184P,Entity
+e177,VHL L178R,Entity
+e178,VHL L178Q,Entity
+e179,VHL L178P,Entity
+e180,VHL L169P,Entity
+e181,VHL L163H,Entity
+e182,VHL L158fs,Entity
+e183,VHL L158V,Entity
+e184,VHL L158P,Entity
+e185,VHL L153fs,Entity
+e186,VHL L153P,Entity
+e187,VHL L140fs,Entity
+e188,VHL L135fs,Entity
+e189,VHL L135*,Entity
+e190,VHL L129fs,Entity
+e191,VHL L129Q,Entity
+e192,VHL L129P,Entity
+e193,VHL L128R,Entity
+e194,VHL L128F,Entity
+e195,VHL L118fs,Entity
+e196,VHL L118P,Entity
+e197,VHL L116V,Entity
+e198,VHL L101G,Entity
+e199,VHL K196fs,Entity
+e200,VHL K196*,Entity
+e201,VHL K159fs,Entity
+e202,VHL I180V,Entity
+e203,VHL I151T,Entity
+e204,VHL I151M,Entity
+e205,VHL I151F,Entity
+e206,VHL H191fs,Entity
+e207,VHL H125fs,Entity
+e208,VHL H115fs,Entity
+e209,VHL H115Y,Entity
+e210,VHL H115R,Entity
+e211,VHL H115Q,Entity
+e212,VHL H115P,Entity
+e213,VHL G93_Y98del,Entity
+e214,VHL G93V,Entity
+e215,VHL G93S,Entity
+e216,VHL G93R,Entity
+e217,VHL G93C,Entity
+e218,VHL G144fs,Entity
+e219,VHL G144E,Entity
+e220,VHL G144*,Entity
+e221,VHL G123fs,Entity
+e222,VHL G114dup,Entity
+e223,VHL G114Vfs*45,Entity
+e224,VHL G114S,Entity
+e225,VHL G114R,Entity
+e226,VHL G114C,Entity
+e227,VHL G104V,Entity
+e228,VHL G104A,Entity
+e229,VHL F91L,Entity
+e230,VHL F91*,Entity
+e231,VHL F76fs,Entity
+e232,VHL F76del,Entity
+e233,VHL F76S,Entity
+e234,VHL F148*,Entity
+e235,VHL F136S,Entity
+e236,VHL F136C,Entity
+e237,VHL F119L,Entity
+e238,VHL E94fs,Entity
+e239,VHL E94*,Entity
+e240,VHL E70K,Entity
+e241,VHL E70*,Entity
+e242,VHL E55fs,Entity
+e243,VHL E55RfsTer11,Entity
+e244,VHL E55*,Entity
+e245,VHL E52K,Entity
+e246,VHL E46*,Entity
+e247,VHL E189fs,Entity
+e248,VHL E186K,Entity
+e249,VHL E186*,Entity
+e250,VHL E160fs,Entity
+e251,VHL D92G,Entity
+e252,VHL D197fs,Entity
+e253,VHL D143fs,Entity
+e254,VHL D126fs,Entity
+e255,VHL D121_A122del,Entity
+e256,VHL D121G,Entity
+e257,VHL C77fs,Entity
+e258,VHL C77_N78insL,Entity
+e259,VHL C162fs,Entity
+e260,VHL C162Y,Entity
+e261,VHL C162W,Entity
+e262,VHL C162R,Entity
+e263,VHL C162F,Entity
+e264,VHL A56fs,Entity
+e265,VHL A56_P59del,Entity
+e266,VHL A149fs,Entity
+e267,VHL A149T,Entity
+e268,VHL A149S,Entity
+e269,VHL A122I,Entity
+e270,VHL *214W,Entity
+e271,VHL *214L,Entity
+e272,VHL *214G,Entity
+e273,VHL *214C,Entity
+e274,VEGFA mutation,Entity
+e275,VEGFA amplification,Entity
+e276,VCL-NTRK2 fusion,Entity
+e277,USP25-JAK2 fusion,Entity
+e278,UGT1A1 mutation,Entity
+e279,UGT1A1 P229Q,Entity
+e280,UGT1A1 G71R,Entity
+e281,U2AF1 oncogenic mutation,Entity
+e282,U2AF1 mutation,Entity
+e283,U2AF1 exon 6 mutation,Entity
+e284,U2AF1 exon 2 mutation,Entity
+e285,U2AF1 S34Y,Entity
+e286,U2AF1 S34X,Entity
+e287,U2AF1 S34F,Entity
+e288,U2AF1 R156X,Entity
+e289,U2AF1 Q157X,Entity
+e290,U2AF1 Q157R,Entity
+e291,U2AF1 Q157P,Entity
+e292,TYK2 mutation,Entity
+e293,TYK2 fusion,Entity
+e294,TSC2 oncogenic mutation,Entity
+e295,TSC2 mutation,Entity
+e296,TSC2 copy loss,Entity
+e297,TSC2 W358*,Entity
+e298,TSC2 Q1178*,Entity
+e299,TSC2 E66K,Entity
+e300,TSC1 oncogenic mutation,Entity
+e301,TSC1 mutation,Entity
+e302,TSC1 loss of function,Entity
+e303,TSC1 frameshift,Entity
+e304,TSC1 copy loss,Entity
+e305,TSC1 Y185*,Entity
+e306,TSC1 R424Nfs*,Entity
+e307,TSC1 R1062W,Entity
+e308,TSC1 Q516*,Entity
+e309,TRIM63-NTRK1 fusion,Entity
+e310,TRIM24-BRAF fusion,Entity
+e311,TRA-TCL1B fusion,Entity
+e312,TRA-TCL1A fusion,Entity
+e313,TRA fusion,Entity
+e314,TPR-NTRK1 fusion,Entity
+e315,TPR-JAK2 fusion,Entity
+e316,TPM3-NTRK1 fusion,Entity
+e317,TP53 truncating mutation,Entity
+e318,TP53 overexpression,Entity
+e319,TP53 oncogenic mutation,Entity
+e320,TP53 mutation,Entity
+e321,TP53 exon 7 mutation,Entity
+e322,TP53 exon 4 mutation,Entity
+e323,TP53 deletion,Entity
+e324,TP53 copy loss,Entity
+e325,TP53 Y236S,Entity
+e326,TP53 Y234H,Entity
+e327,TP53 Y234C,Entity
+e328,TP53 Y220H,Entity
+e329,TP53 Y220C,Entity
+e330,TP53 Y163N,Entity
+e331,TP53 Y163H,Entity
+e332,TP53 Y126S,Entity
+e333,TP53 Y126D,Entity
+e334,TP53 V274F,Entity
+e335,TP53 V272M,Entity
+e336,TP53 V272G,Entity
+e337,TP53 V157F,Entity
+e338,TP53 T230S,Entity
+e339,TP53 T125T,Entity
+e340,TP53 S241T,Entity
+e341,TP53 S241F,Entity
+e342,TP53 S127Y,Entity
+e343,TP53 R72P,Entity
+e344,TP53 R342P,Entity
+e345,TP53 R337P,Entity
+e346,TP53 R283H,Entity
+e347,TP53 R282W,Entity
+e348,TP53 R282L,Entity
+e349,TP53 R280T,Entity
+e350,TP53 R280K,Entity
+e351,TP53 R273L,Entity
+e352,TP53 R273H,Entity
+e353,TP53 R273C,Entity
+e354,TP53 R249X,Entity
+e355,TP53 R249S,Entity
+e356,TP53 R249M,Entity
+e357,TP53 R248W,Entity
+e358,TP53 R248Q,Entity
+e359,TP53 R213P,Entity
+e360,TP53 R213L,Entity
+e361,TP53 R181P,Entity
+e362,TP53 R181H,Entity
+e363,TP53 R181G,Entity
+e364,TP53 R181C,Entity
+e365,TP53 R175H,Entity
+e366,TP53 R158P,Entity
+e367,TP53 R158L,Entity
+e368,TP53 R158H,Entity
+e369,TP53 R158G,Entity
+e370,TP53 R156P,Entity
+e371,TP53 R156H,Entity
+e372,TP53 Q144P,Entity
+e373,TP53 P98S,Entity
+e374,TP53 P98L,Entity
+e375,TP53 P72R,Entity
+e376,TP53 P47S,Entity
+e377,TP53 P278S,Entity
+e378,TP53 P250L,Entity
+e379,TP53 P219H,Entity
+e380,TP53 P177S,Entity
+e381,TP53 P177H,Entity
+e382,TP53 P177F,Entity
+e383,TP53 P152T,Entity
+e384,TP53 P152L,Entity
+e385,TP53 P151S,Entity
+e386,TP53 P151H,Entity
+e387,TP53 N239S,Entity
+e388,TP53 M246L,Entity
+e389,TP53 M237I,Entity
+e390,TP53 L344P,Entity
+e391,TP53 L330R,Entity
+e392,TP53 L330P,Entity
+e393,TP53 L323P,Entity
+e394,TP53 L308M,Entity
+e395,TP53 L257P,Entity
+e396,TP53 L252F,Entity
+e397,TP53 L139N,Entity
+e398,TP53 L111R,Entity
+e399,TP53 K139E,Entity
+e400,TP53 K132N,Entity
+e401,TP53 K132E,Entity
+e402,TP53 I162F,Entity
+e403,TP53 H179Y,Entity
+e404,TP53 H179R,Entity
+e405,TP53 H178P,Entity
+e406,TP53 H168Y,Entity
+e407,TP53 H115Y,Entity
+e408,TP53 G279E,Entity
+e409,TP53 G266V,Entity
+e410,TP53 G266R,Entity
+e411,TP53 G266E,Entity
+e412,TP53 G262D,Entity
+e413,TP53 G245S,Entity
+e414,TP53 G245D,Entity
+e415,TP53 G244S,Entity
+e416,TP53 F270S,Entity
+e417,TP53 E68G,Entity
+e418,TP53 E286K,Entity
+e419,TP53 E258K,Entity
+e420,TP53 E224K,Entity
+e421,TP53 D281N,Entity
+e422,TP53 D281E,Entity
+e423,TP53 D259V,Entity
+e424,TP53 C242Y,Entity
+e425,TP53 C238Y,Entity
+e426,TP53 C135W,Entity
+e427,TP53 C124R,Entity
+e428,TP53 A276V,Entity
+e429,TP53 A161T,Entity
+e430,TOP2A mutation,Entity
+e431,TOP2A expression,Entity
+e432,TOP2A amplification,Entity
+e433,TOP1 mutation,Entity
+e434,TOP1 expression,Entity
+e435,TOP1 amplification,Entity
+e436,TNKS2-PDGFRA fusion,Entity
+e437,TMPRSS2-ERG fusion,Entity
+e438,TMPRSS2 fusion,Entity
+e439,TFG-ROS1 fusion,Entity
+e440,TFE3 mutation,Entity
+e441,TFE3 fusion,Entity
+e442,TET2 oncogenic mutation,Entity
+e443,TET2 mutation,Entity
+e444,TERT promoters core,Entity
+e445,TERT promoter mutation,Entity
+e446,TERT mutation,Entity
+e447,TERT amplification,Entity
+e448,TERT C228T,Entity
+e449,TERF2-JAK2 fusion,Entity
+e450,TBL1XR1-CSF1R fusion,Entity
+e451,SYK overexpression,Entity
+e452,SYK mutation,Entity
+e453,SYK amplification,Entity
+e454,STRN3-JAK2 fusion,Entity
+e455,STRN-NTRK2 fusion,Entity
+e456,STRN-ALK fusion,Entity
+e457,STK11 underexpression,Entity
+e458,STK11 oncogenic mutation,Entity
+e459,STK11 mutation,Entity
+e460,STK11 exon 1 mutation,Entity
+e461,STK11 deletion,Entity
+e462,STK11 copy loss,Entity
+e463,STK11 S69*,Entity
+e464,STK11 D194E,Entity
+e465,STAT5B oncogenic mutation,Entity
+e466,STAT5B mutation,Entity
+e467,STAT3 oncogenic mutation,Entity
+e468,STAT3 mutation,Entity
+e469,STAG2 underexpression,Entity
+e470,STAG2 oncogenic mutation,Entity
+e471,STAG2 mutation,Entity
+e472,SSBP2-JAK2 fusion,Entity
+e473,SRSF2 oncogenic mutation,Entity
+e474,SRSF2 mutation,Entity
+e475,SRSF2 exon 1 mutation,Entity
+e476,SRSF2 P95del,Entity
+e477,SRSF2 P95X,Entity
+e478,SRSF2 P95L,Entity
+e479,SRSF2 P95H,Entity
+e480,SQSTM1-NTRK1 fusion,Entity
+e481,SQSTM1 mutation,Entity
+e482,SNX29-JAK2 fusion,Entity
+e483,SNX2-ABL1 fusion,Entity
+e484,SMU1-JAK2 fusion,Entity
+e485,SMO mutation,Entity
+e486,SMO W535L,Entity
+e487,SMO W281C,Entity
+e488,SMO V321M,Entity
+e489,SMO T241M,Entity
+e490,SMO S533N,Entity
+e491,SMO Q477E,Entity
+e492,SMO P641A,Entity
+e493,SMO N476S,Entity
+e494,SMO L412F,Entity
+e495,SMO I408V,Entity
+e496,SMO H231R,Entity
+e497,SMO G497W,Entity
+e498,SMO D473Y,Entity
+e499,SMO D473N,Entity
+e500,SMO D473H,Entity
+e501,SMO D473G,Entity
+e502,SMO C469Y,Entity
+e503,SMO A459V,Entity
+e504,SMARCB1 underexpression,Entity
+e505,SMARCB1 oncogenic mutation,Entity
+e506,SMARCB1 mutation,Entity
+e507,SMARCB1 deletion,Entity
+e508,SMARCB1 copy loss,Entity
+e509,SMARCB1 absent,Entity
+e510,SMARCA4 underexpression,Entity
+e511,SMARCA4 oncogenic mutation,Entity
+e512,SMARCA4 mutation,Entity
+e513,SMARCA4 inactivating mutation,Entity
+e514,SMARCA4 copy loss,Entity
+e515,SMARCA4 absent,Entity
+e516,SMAD4 underexpression,Entity
+e517,SMAD4 mutation,Entity
+e518,SMAD4 expression,Entity
+e519,SMAD4 deletion,Entity
+e520,SMAD4 R361C,Entity
+e521,SLFN11 mutation,Entity
+e522,SLFN11 expression,Entity
+e523,SLC4A4-ROS1 fusion,Entity
+e524,SLC3A2-NRG1 fusion,Entity
+e525,SH2B3 oncogenic mutation,Entity
+e526,SH2B3 mutation,Entity
+e527,SH2B3 fusion,Entity
+e528,SH2B3 deletion,Entity
+e529,SH2B3 copy loss,Entity
+e530,SFPQ-ABL1 fusion,Entity
+e531,SF3B1 oncogenic mutation,Entity
+e532,SF3B1 mutation,Entity
+e533,SF3B1 exon 15 mutation,Entity
+e534,SF3B1 exon 14 mutation,Entity
+e535,SF3B1 Y623X,Entity
+e536,SF3B1 V701X,Entity
+e537,SF3B1 T663X,Entity
+e538,SF3B1 R625X,Entity
+e539,SF3B1 N626X,Entity
+e540,SF3B1 K741X,Entity
+e541,SF3B1 K700X,Entity
+e542,SF3B1 K700E,Entity
+e543,SF3B1 K666X,Entity
+e544,SF3B1 K666N,Entity
+e545,SF3B1 I704X,Entity
+e546,SF3B1 H662X,Entity
+e547,SF3B1 G742X,Entity
+e548,SF3B1 G740X,Entity
+e549,SF3B1 E622X,Entity
+e550,SF3B1 D781X,Entity
+e551,SF3B1 A774X,Entity
+e552,SETD2 oncogenic mutation,Entity
+e553,SETD2 mutation,Entity
+e554,SETD2 copy loss,Entity
+e555,SETBP1 oncogenic mutation,Entity
+e556,SETBP1 mutation,Entity
+e557,SETBP1 exon 4 mutation,Entity
+e558,SETBP1 T864X,Entity
+e559,SETBP1 S869X,Entity
+e560,SETBP1 I865X,Entity
+e561,SETBP1 G870X,Entity
+e562,SETBP1 G870S,Entity
+e563,SETBP1 E858X,Entity
+e564,SETBP1 D868X,Entity
+e565,SDC4-ROS1 fusion,Entity
+e566,SDC4-NRG1 fusion,Entity
+e567,SCP2-NTRK1 fusion,Entity
+e568,RUNX1-RUNX1T1 fusion,Entity
+e569,RUNX1-MECOM fusion,Entity
+e570,RUNX1 oncogenic mutation,Entity
+e571,RUNX1 mutation,Entity
+e572,RUNX1 exon 6 mutation,Entity
+e573,RUNX1 exon 5 mutation,Entity
+e574,RUNX1 exon 4 mutation,Entity
+e575,RUNX1 Y260*,Entity
+e576,RUNX1 T148HfsX9,Entity
+e577,RUNX1 R135fsX177,Entity
+e578,RUNX1 K83E,Entity
+e579,RUNX1 D198Y,Entity
+e580,RUNX1 A107P,Entity
+e581,ROS1 mutation,Entity
+e582,ROS1 fusion,Entity
+e583,ROS1 S1986Y,Entity
+e584,ROS1 S1986F,Entity
+e585,ROS1 L2155S,Entity
+e586,ROS1 L2086F,Entity
+e587,ROS1 L2026M,Entity
+e588,ROS1 G2101A,Entity
+e589,ROS1 G2032R,Entity
+e590,RNF43 oncogenic mutation,Entity
+e591,RNF43 mutation,Entity
+e592,RIT1 overexpression,Entity
+e593,RIT1 mutation,Entity
+e594,RICTOR mutation,Entity
+e595,RICTOR amplification,Entity
+e596,RHOA oncogenic mutation,Entity
+e597,RHOA mutation,Entity
+e598,RFX3-JAK2 fusion,Entity
+e599,RET-TPCN1 fusion,Entity
+e600,RET overexpression,Entity
+e601,RET oncogenic mutation,Entity
+e602,RET mutation,Entity
+e603,RET fusion,Entity
+e604,RET amino acid 918 mutation,Entity
+e605,RET amino acid 634 mutation,Entity
+e606,RET V804M,Entity
+e607,RET M918T,Entity
+e608,RET I788N,Entity
+e609,RET C634W,Entity
+e610,RET C634R,Entity
+e611,RET C609Y,Entity
+e612,RELA fusion,Entity
+e613,RCSD1-ABL2 fusion,Entity
+e614,RCSD1-ABL1 fusion,Entity
+e615,RB1 overexpression,Entity
+e616,RB1 oncogenic mutation,Entity
+e617,RB1 mutation,Entity
+e618,RB1 loss of function,Entity
+e619,RB1 expression,Entity
+e620,RB1 copy loss,Entity
+e621,RB1 M695fs*26,Entity
+e622,RASA1 mutation,Entity
+e623,RASA1 loss of function,Entity
+e624,RARA mutation,Entity
+e625,RARA fusion,Entity
+e626,RANBP2-ALK fusion,Entity
+e627,RANBP2-ABL1 fusion,Entity
+e628,RAF1 overexpression,Entity
+e629,RAF1 oncogenic mutation,Entity
+e630,RAF1 mutation,Entity
+e631,RAF1 fusion,Entity
+e632,RAF1 amplification,Entity
+e633,RAF1 S257P,Entity
+e634,RAF1 R391W,Entity
+e635,RAF1 P261P,Entity
+e636,RAF1 G361A,Entity
+e637,RAD54L oncogenic mutation,Entity
+e638,RAD54L mutation,Entity
+e639,RAD51D oncogenic mutation,Entity
+e640,RAD51D mutation,Entity
+e641,RAD51D R186*,Entity
+e642,RAD51C oncogenic mutation,Entity
+e643,RAD51C mutation,Entity
+e644,RAD51B oncogenic mutation,Entity
+e645,RAD51B mutation,Entity
+e646,RAD50 mutation,Entity
+e647,RAD50 L1237F,Entity
+e648,QKI-RAF1 fusion,Entity
+e649,QKI-NTRK2 fusion,Entity
+e650,PTPRZ1-MET fusion,Entity
+e651,PTPRD oncogenic mutation,Entity
+e652,PTPRD mutation,Entity
+e653,PTPRD V253I,Entity
+e654,PTPN11 overexpression,Entity
+e655,PTPN11 oncogenic mutation,Entity
+e656,PTPN11 mutation,Entity
+e657,PTPN11 V428M,Entity
+e658,PTEN oncogenic mutation,Entity
+e659,PTEN mutation,Entity
+e660,PTEN expression,Entity
+e661,PTEN deletion,Entity
+e662,PTEN copy loss,Entity
+e663,PTEN V317fs,Entity
+e664,PTEN R233*,Entity
+e665,PTEN R173C,Entity
+e666,PTEN R130*,Entity
+e667,PTEN C136R,Entity
+e668,PTCH1 truncating mutation,Entity
+e669,PTCH1 oncogenic mutation,Entity
+e670,PTCH1 mutation,Entity
+e671,PROM1 mutation,Entity
+e672,PROM1 expression,Entity
+e673,PPM1D oncogenic mutation,Entity
+e674,PPM1D mutation,Entity
+e675,PPFIBP2-BRAF fusion,Entity
+e676,PPFIBP1-JAK2 fusion,Entity
+e677,POLE oncogenic mutation,Entity
+e678,POLE mutation,Entity
+e679,POLE V411L,Entity
+e680,POLE S459F,Entity
+e681,POLE P286R,Entity
+e682,POLE N363K,Entity
+e683,POLE A463V,Entity
+e684,POLD1 mutation,Entity
+e685,POLD1 E374K,Entity
+e686,POLD1 C284Y,Entity
+e687,PMS2 mutation,Entity
+e688,PMS2 R315*,Entity
+e689,PMS2 K706fs*19,Entity
+e690,PML-RARA fusion,Entity
+e691,PLCG2 mutation,Entity
+e692,PLCG2 R665W,Entity
+e693,PLCG2 L845F,Entity
+e694,PIK3R2 overexpression,Entity
+e695,PIK3R2 mutation,Entity
+e696,PIK3R2 N561D,Entity
+e697,PIK3R2 G373R,Entity
+e698,PIK3R2 A171V,Entity
+e699,PIK3R1 oncogenic mutation,Entity
+e700,PIK3R1 mutation,Entity
+e701,PIK3R1 K448_Y452del,Entity
+e702,PIK3CB oncogenic mutation,Entity
+e703,PIK3CB mutation,Entity
+e704,PIK3CB D1067Y,Entity
+e705,PIK3CA oncogenic mutation,Entity
+e706,PIK3CA mutation,Entity
+e707,PIK3CA exon 9 mutation,Entity
+e708,PIK3CA exon 21 mutation,Entity
+e709,PIK3CA exon 20 mutation,Entity
+e710,PIK3CA exon 10 mutation,Entity
+e711,PIK3CA amplification,Entity
+e712,PIK3CA Y1021H,Entity
+e713,PIK3CA V955I,Entity
+e714,PIK3CA V955G,Entity
+e715,PIK3CA V105del,Entity
+e716,PIK3CA V105_G106del,Entity
+e717,PIK3CA S158L,Entity
+e718,PIK3CA R93W,Entity
+e719,PIK3CA R88Q,Entity
+e720,PIK3CA R38C,Entity
+e721,PIK3CA R108H,Entity
+e722,PIK3CA Q75E,Entity
+e723,PIK3CA Q546X,Entity
+e724,PIK3CA Q546R,Entity
+e725,PIK3CA Q546P,Entity
+e726,PIK3CA Q546K,Entity
+e727,PIK3CA Q546E,Entity
+e728,PIK3CA P539R,Entity
+e729,PIK3CA P471L,Entity
+e730,PIK3CA P104_V105delinsL,Entity
+e731,PIK3CA N345S,Entity
+e732,PIK3CA N345K,Entity
+e733,PIK3CA N1044K,Entity
+e734,PIK3CA M1043V,Entity
+e735,PIK3CA M1043I,Entity
+e736,PIK3CA M1004I,Entity
+e737,PIK3CA L938*,Entity
+e738,PIK3CA L455_G460delinsC,Entity
+e739,PIK3CA L452_G460del,Entity
+e740,PIK3CA K966E,Entity
+e741,PIK3CA K944N,Entity
+e742,PIK3CA K111N,Entity
+e743,PIK3CA I391M,Entity
+e744,PIK3CA H450_P458del,Entity
+e745,PIK3CA H1047Y,Entity
+e746,PIK3CA H1047X,Entity
+e747,PIK3CA H1047R,Entity
+e748,PIK3CA H1047L,Entity
+e749,PIK3CA H1047I,Entity
+e750,PIK3CA G118D,Entity
+e751,PIK3CA G106_R108del,Entity
+e752,PIK3CA G106_E109del,Entity
+e753,PIK3CA G106V,Entity
+e754,PIK3CA G106C,Entity
+e755,PIK3CA G1049R,Entity
+e756,PIK3CA F930S,Entity
+e757,PIK3CA E81K,Entity
+e758,PIK3CA E726K,Entity
+e759,PIK3CA E545X,Entity
+e760,PIK3CA E545Q,Entity
+e761,PIK3CA E545K,Entity
+e762,PIK3CA E545G,Entity
+e763,PIK3CA E545D,Entity
+e764,PIK3CA E545A,Entity
+e765,PIK3CA E545*,Entity
+e766,PIK3CA E542Q,Entity
+e767,PIK3CA E542K,Entity
+e768,PIK3CA E453_L455del,Entity
+e769,PIK3CA E453Q,Entity
+e770,PIK3CA E453K,Entity
+e771,PIK3CA E418K,Entity
+e772,PIK3CA E39K,Entity
+e773,PIK3CA E365K,Entity
+e774,PIK3CA E110del,Entity
+e775,PIK3CA E103_V105del,Entity
+e776,PIK3CA E103_G106delinsD,Entity
+e777,PIK3CA D350G,Entity
+e778,PIK3CA D1056N,Entity
+e779,PIK3CA D1045N,Entity
+e780,PIK3CA C420R,Entity
+e781,PHF6 oncogenic mutation,Entity
+e782,PHF6 mutation,Entity
+e783,PGR mutation,Entity
+e784,PGR expression,Entity
+e785,PGR absent,Entity
+e786,PDGFRB overexpression,Entity
+e787,PDGFRB mutation,Entity
+e788,PDGFRB fusion,Entity
+e789,PDGFRB C843G,Entity
+e790,PDGFRA-FIP1L1 fusion,Entity
+e791,PDGFRA overexpression,Entity
+e792,PDGFRA oncogenic mutation,Entity
+e793,PDGFRA mutation,Entity
+e794,PDGFRA fusion,Entity
+e795,PDGFRA exon 18 mutation,Entity
+e796,PDGFRA exon 18 missense mutation,Entity
+e797,PDGFRA exon 18 in-frame insertion,Entity
+e798,PDGFRA exon 18 in-frame deletion,Entity
+e799,PDGFRA exon 15 mutation,Entity
+e800,PDGFRA exon 14 mutation,Entity
+e801,PDGFRA exon 12 mutation,Entity
+e802,PDGFRA amplification,Entity
+e803,PDGFRA V658A,Entity
+e804,PDGFRA V561D,Entity
+e805,PDGFRA V561A,Entity
+e806,PDGFRA T674I,Entity
+e807,PDGFRA R841K,Entity
+e808,PDGFRA P577S,Entity
+e809,PDGFRA I843del,Entity
+e810,PDGFRA H845Y,Entity
+e811,PDGFRA G853D,Entity
+e812,PDGFRA D842_I843delinsVM,Entity
+e813,PDGFRA D842Y,Entity
+e814,PDGFRA D842V,Entity
+e815,PDGFRA D842I,Entity
+e816,PDE4DIP-NTRK1 fusion,Entity
+e817,PDCD4 mutation,Entity
+e818,PDCD4 expression,Entity
+e819,PDCD1LG2 mutation,Entity
+e820,PDCD1LG2 amplification,Entity
+e821,PCM1-JAK2 fusion,Entity
+e822,PBRM1 underexpression,Entity
+e823,PBRM1 oncogenic mutation,Entity
+e824,PBRM1 mutation,Entity
+e825,PBRM1 copy loss,Entity
+e826,PBRM1 Q167*,Entity
+e827,PBRM1 G1451*,Entity
+e828,PAX5-JAK2 fusion,Entity
+e829,PAX5 mutation,Entity
+e830,PAX5 P80R,Entity
+e831,PARP1 overexpression,Entity
+e832,PARP1 mutation,Entity
+e833,PAPSS1-BRAF fusion,Entity
+e834,PALB2 oncogenic mutation,Entity
+e835,PALB2 mutation,Entity
+e836,PALB2 copy loss,Entity
+e837,PALB2 L531fs*30,Entity
+e838,OFD1-JAK2 fusion,Entity
+e839,NUTM1 mutation,Entity
+e840,NUTM1 fusion,Entity
+e841,NUP98-NSD1 fusion,Entity
+e842,NUP98 mutation,Entity
+e843,NUP98 fusion,Entity
+e844,NUP214-ABL1 fusion,Entity
+e845,NUP153-ABL1 fusion,Entity
+e846,NTRK3-SCAPER fusion,Entity
+e847,NTRK3 mutation,Entity
+e848,NTRK3 fusion,Entity
+e849,NTRK3 amplification,Entity
+e850,NTRK3 G696A,Entity
+e851,NTRK3 G623R,Entity
+e852,NTRK3 F617L,Entity
+e853,NTRK2 mutation,Entity
+e854,NTRK2 fusion,Entity
+e855,NTRK1 overexpression,Entity
+e856,NTRK1 mutation,Entity
+e857,NTRK1 fusion,Entity
+e858,NTRK1 amplification,Entity
+e859,NTRK1 G667S,Entity
+e860,NTRK1 G667C,Entity
+e861,NTRK1 G595R,Entity
+e862,NTRK1 F589L,Entity
+e863,NT5E overexpression,Entity
+e864,NT5E mutation,Entity
+e865,NT5C2 mutation,Entity
+e866,NT5C2 S445F,Entity
+e867,NT5C2 R367Q,Entity
+e868,NT5C2 R238W,Entity
+e869,NT5C2 K359Q,Entity
+e870,NT5C2 D407A,Entity
+e871,NRG1 mutation,Entity
+e872,NRG1 fusion,Entity
+e873,NRG1 expression,Entity
+e874,NRF1-BRAF fusion,Entity
+e875,NRAS oncogenic mutation,Entity
+e876,NRAS mutation,Entity
+e877,NRAS amino acid 61 mutation,Entity
+e878,NRAS amino acid 13 mutation,Entity
+e879,NRAS amino acid 12 mutation,Entity
+e880,NRAS Q61X,Entity
+e881,NRAS Q61R,Entity
+e882,NRAS Q61L,Entity
+e883,NRAS Q61K,Entity
+e884,NRAS Q61H,Entity
+e885,NRAS Q179X,Entity
+e886,NRAS G13X,Entity
+e887,NRAS G13V,Entity
+e888,NRAS G13R,Entity
+e889,NRAS G13D,Entity
+e890,NRAS G12X,Entity
+e891,NRAS G12V,Entity
+e892,NRAS G12S,Entity
+e893,NRAS G12R,Entity
+e894,NRAS G12D,Entity
+e895,NRAS G12C,Entity
+e896,NRAS G12A,Entity
+e897,NQO1 mutation,Entity
+e898,NQO1 expression,Entity
+e899,NQO1 P187S,Entity
+e900,NPM1-MLF1 fusion,Entity
+e901,NPM1-ALK fusion,Entity
+e902,NPM1 oncogenic mutation,Entity
+e903,NPM1 mutation,Entity
+e904,NPM1 exon 12 mutation,Entity
+e905,NPM1 W288fs,Entity
+e906,NOTCH2 oncogenic mutation,Entity
+e907,NOTCH2 mutation,Entity
+e908,NOTCH2 fusion,Entity
+e909,NOTCH2 activating mutation,Entity
+e910,NOTCH1 oncogenic mutation,Entity
+e911,NOTCH1 mutation,Entity
+e912,NOTCH1 loss of function,Entity
+e913,NOTCH1 fusion,Entity
+e914,NOTCH1 exon 26 mutation,Entity
+e915,NOTCH1 amplification,Entity
+e916,NOTCH1 amino acid 2245-2536 stop lost,Entity
+e917,NOTCH1 amino acid 2245-2536 stop gained,Entity
+e918,NOTCH1 amino acid 2245-2536 splice donor variant,Entity
+e919,NOTCH1 amino acid 2245-2536 splice acceptor variant,Entity
+e920,NOTCH1 amino acid 2245-2536 frameshift,Entity
+e921,NOTCH1 activating mutation,Entity
+e922,NOTCH1 V2444fs,Entity
+e923,NOTCH1 S2275fs,Entity
+e924,NOTCH1 R2327W,Entity
+e925,NOTCH1 P2514fs,Entity
+e926,NOTCH1 D1642H,Entity
+e927,NFE2L2 mutation,Entity
+e928,NFE2L2 G31A,Entity
+e929,NF2 oncogenic mutation,Entity
+e930,NF2 mutation,Entity
+e931,NF2 deletion,Entity
+e932,NF2 copy loss,Entity
+e933,NF2 Y177fs,Entity
+e934,NF2 K159fs,Entity
+e935,NF1 oncogenic mutation,Entity
+e936,NF1 mutation,Entity
+e937,NF1 inactivating mutation,Entity
+e938,NF1 deletion,Entity
+e939,NF1 copy loss,Entity
+e940,NF1 D1644A,Entity
+e941,MYOD1 mutation,Entity
+e942,MYOD1 L122R,Entity
+e943,MYD88 overexpression,Entity
+e944,MYD88 mutation,Entity
+e945,MYD88 exon 5 mutation,Entity
+e946,MYD88 L273P,Entity
+e947,MYD88 L265P,Entity
+e948,MYCN mutation,Entity
+e949,MYCN amplification,Entity
+e950,MYC overexpression,Entity
+e951,MYC mutation,Entity
+e952,MYC fusion,Entity
+e953,MYC amplification,Entity
+e954,MYBL1 mutation,Entity
+e955,MYBL1 fusion,Entity
+e956,MYB-QKI fusion,Entity
+e957,MYB-GATA1 fusion,Entity
+e958,MYB truncating mutation,Entity
+e959,MYB mutation,Entity
+e960,MYB fusion,Entity
+e961,MYB amplification,Entity
+e962,MTOR oncogenic mutation,Entity
+e963,MTOR mutation,Entity
+e964,MTOR S2215Y,Entity
+e965,MTOR R2505P,Entity
+e966,MTOR Q2223K,Entity
+e967,MTOR P2213S,Entity
+e968,MTOR N1421D,Entity
+e969,MTOR M2327I,Entity
+e970,MTOR L2427Q,Entity
+e971,MTOR L2209V,Entity
+e972,MTOR L1460P,Entity
+e973,MTOR K1771R,Entity
+e974,MTOR I1973F,Entity
+e975,MTOR H1968Y,Entity
+e976,MTOR F2108L,Entity
+e977,MTOR E2419K,Entity
+e978,MTOR E2014K,Entity
+e979,MTOR E1799K,Entity
+e980,MTOR C1483Y,Entity
+e981,MTOR A2034V,Entity
+e982,MSH6 mutation,Entity
+e983,MSH6 V352I,Entity
+e984,MSH6 R1242H,Entity
+e985,MSH6 R1242C,Entity
+e986,MSH6 P138T,Entity
+e987,MSH6 I891fs,Entity
+e988,MSH3 oncogenic mutation,Entity
+e989,MSH3 mutation,Entity
+e990,MSH2 mutation,Entity
+e991,MSH2 V273fs,Entity
+e992,MSH2 R383*,Entity
+e993,MSH2 K172*,Entity
+e994,MSH2 E483G,Entity
+e995,MSH2 E28fs,Entity
+e996,MRE11 mutation,Entity
+e997,MRE11 frameshift,Entity
+e998,MPL oncogenic mutation,Entity
+e999,MPL mutation,Entity
+e1000,MPL exon 10 mutation,Entity
+e1001,MPL W515X,Entity
+e1002,MPL W515L,Entity
+e1003,MPL W515K,Entity
+e1004,MPL W515F,Entity
+e1005,MN1-ZFTA fusion,Entity
+e1006,MN1-BEND2 fusion,Entity
+e1007,MN1 fusion,Entity
+e1008,MLH1 mutation,Entity
+e1009,MLH1 methylation,Entity
+e1010,MLH1 expression,Entity
+e1011,MLH1 V534R,Entity
+e1012,MLH1 V49A,Entity
+e1013,MLH1 V213fs,Entity
+e1014,MLH1 T117M,Entity
+e1015,MLH1 R687fs,Entity
+e1016,MLH1 R265G,Entity
+e1017,MLH1 R226*,Entity
+e1018,MLH1 R100*,Entity
+e1019,MLH1 Q426fs,Entity
+e1020,MLH1 Q149*,Entity
+e1021,MLH1 P536fs,Entity
+e1022,MLH1 P138T,Entity
+e1023,MLH1 N551T,Entity
+e1024,MLH1 M490T,Entity
+e1025,MLH1 M1L,Entity
+e1026,MLH1 K618del,Entity
+e1027,MLH1 I68S,Entity
+e1028,MLH1 G67R,Entity
+e1029,MLH1 G65D,Entity
+e1030,MLH1 G606fs*2,Entity
+e1031,MLH1 E13fs,Entity
+e1032,MLH1 D667fs,Entity
+e1033,MLH1 A681V,Entity
+e1034,MLH1 A424T,Entity
+e1035,MLH1 *757L,Entity
+e1036,MKI67 overexpression,Entity
+e1037,MKI67 mutation,Entity
+e1038,MKI67 expression,Entity
+e1039,MITF mutation,Entity
+e1040,MITF fusion,Entity
+e1041,MITF amplification,Entity
+e1042,MGMT underexpression,Entity
+e1043,MGMT promoter methylation,Entity
+e1044,MGMT mutation,Entity
+e1045,MET-ATXN7L1 fusion,Entity
+e1046,MET overexpression,Entity
+e1047,MET mutation,Entity
+e1048,MET kinase domain mutation,Entity
+e1049,MET fusion,Entity
+e1050,MET exon 16 mutation,Entity
+e1051,MET exon 14 splice mutation,Entity
+e1052,MET exon 14 mutation,Entity
+e1053,MET exon 14 in-frame deletion,Entity
+e1054,MET exon 14 deletion,Entity
+e1055,MET amplification,Entity
+e1056,MET Y1235D,Entity
+e1057,MET Y1230H,Entity
+e1058,MET Y1230C,Entity
+e1059,MET Y1003X,Entity
+e1060,MET V1110I,Entity
+e1061,MET T1010I,Entity
+e1062,MET R988C,Entity
+e1063,MET R1004G,Entity
+e1064,MET N375S,Entity
+e1065,MET M1268T,Entity
+e1066,MET H1112R,Entity
+e1067,MET H1112L,Entity
+e1068,MET Exon 14 deletion,Entity
+e1069,MET D1246V,Entity
+e1070,MET D1228V,Entity
+e1071,MET D1228N,Entity
+e1072,MET D1010X,Entity
+e1073,MERTK overexpression,Entity
+e1074,MERTK mutation,Entity
+e1075,MEN1 mutation,Entity
+e1076,MEN1 frameshift,Entity
+e1077,MEF2D-CSF1R fusion,Entity
+e1078,MDM4 mutation,Entity
+e1079,MDM4 amplification,Entity
+e1080,MDM2 mutation,Entity
+e1081,MDM2 expression,Entity
+e1082,MDM2 amplification,Entity
+e1083,MCL1 mutation,Entity
+e1084,MCL1 amplification,Entity
+e1085,MAPK1 mutation,Entity
+e1086,MAPK1 amplification,Entity
+e1087,MAPK1 E322K,Entity
+e1088,MAP2K2 oncogenic mutation,Entity
+e1089,MAP2K2 mutation,Entity
+e1090,MAP2K2 V35M,Entity
+e1091,MAP2K2 Q60X,Entity
+e1092,MAP2K2 Q60P,Entity
+e1093,MAP2K2 P128X,Entity
+e1094,MAP2K2 N126D,Entity
+e1095,MAP2K2 L46F,Entity
+e1096,MAP2K2 K61X,Entity
+e1097,MAP2K2 F57X,Entity
+e1098,MAP2K2 D71X,Entity
+e1099,MAP2K2 C125X,Entity
+e1100,MAP2K2 C125S,Entity
+e1101,MAP2K1 oncogenic mutation,Entity
+e1102,MAP2K1 mutation,Entity
+e1103,MAP2K1 exon 6 mutation,Entity
+e1104,MAP2K1 exon 3 mutation,Entity
+e1105,MAP2K1 exon 2 mutation,Entity
+e1106,MAP2K1 amino acid 56-60 deletion,Entity
+e1107,MAP2K1 V211D,Entity
+e1108,MAP2K1 Q56_V60del,Entity
+e1109,MAP2K1 Q56P,Entity
+e1110,MAP2K1 P124X,Entity
+e1111,MAP2K1 P124S,Entity
+e1112,MAP2K1 P124L,Entity
+e1113,MAP2K1 L215P,Entity
+e1114,MAP2K1 L115X,Entity
+e1115,MAP2K1 K57T,Entity
+e1116,MAP2K1 K57N,Entity
+e1117,MAP2K1 K57E,Entity
+e1118,MAP2K1 K104N,Entity
+e1119,MAP2K1 I99T,Entity
+e1120,MAP2K1 I111S,Entity
+e1121,MAP2K1 I111N,Entity
+e1122,MAP2K1 I103N,Entity
+e1123,MAP2K1 H119P,Entity
+e1124,MAP2K1 G128D,Entity
+e1125,MAP2K1 F53L,Entity
+e1126,MAP2K1 F133L,Entity
+e1127,MAP2K1 F129L,Entity
+e1128,MAP2K1 E203K,Entity
+e1129,MAP2K1 E120D,Entity
+e1130,MAP2K1 D67N,Entity
+e1131,MAP2K1 C121S,Entity
+e1132,MACF1-BRAF fusion,Entity
+e1133,LSM14A-ABL1 fusion,Entity
+e1134,LMNA-NTRK1 fusion,Entity
+e1135,KRAS oncogenic mutation,Entity
+e1136,KRAS mutation,Entity
+e1137,KRAS exon 2 mutation,Entity
+e1138,KRAS amplification,Entity
+e1139,KRAS amino acid 61 mutation,Entity
+e1140,KRAS amino acid 146 mutation,Entity
+e1141,KRAS amino acid 13 mutation,Entity
+e1142,KRAS amino acid 12 mutation,Entity
+e1143,KRAS R164Q,Entity
+e1144,KRAS Q61X,Entity
+e1145,KRAS Q61R,Entity
+e1146,KRAS Q61L,Entity
+e1147,KRAS Q61K,Entity
+e1148,KRAS Q61H,Entity
+e1149,KRAS Q22*,Entity
+e1150,KRAS G13X,Entity
+e1151,KRAS G13V,Entity
+e1152,KRAS G13D,Entity
+e1153,KRAS G12X,Entity
+e1154,KRAS G12V,Entity
+e1155,KRAS G12S,Entity
+e1156,KRAS G12R,Entity
+e1157,KRAS G12D,Entity
+e1158,KRAS G12C,Entity
+e1159,KRAS G12A,Entity
+e1160,KRAS G10_A11insG,Entity
+e1161,KRAS A146X,Entity
+e1162,KRAS A146V,Entity
+e1163,KRAS A146T,Entity
+e1164,KRAS A146P,Entity
+e1165,KRAS A11_G12insGA,Entity
+e1166,KMT2D oncogenic mutation,Entity
+e1167,KMT2D mutation,Entity
+e1168,KMT2D loss of function,Entity
+e1169,KMT2A-MLLT3 fusion,Entity
+e1170,KMT2A-MLLT10 fusion,Entity
+e1171,KMT2A-MLLT1 fusion,Entity
+e1172,KMT2A-AFF1 fusion,Entity
+e1173,KMT2A-AFDN fusion,Entity
+e1174,KMT2A-ABI1 fusion,Entity
+e1175,KMT2A mutation,Entity
+e1176,KMT2A fusion,Entity
+e1177,KIT oncogenic mutation,Entity
+e1178,KIT mutation,Entity
+e1179,KIT expression,Entity
+e1180,KIT exon 9 mutation,Entity
+e1181,KIT exon 18 mutation,Entity
+e1182,KIT exon 17 mutation,Entity
+e1183,KIT exon 14 mutation,Entity
+e1184,KIT exon 13 mutation,Entity
+e1185,KIT exon 11 mutation,Entity
+e1186,KIT exon 10 mutation,Entity
+e1187,KIT amplification,Entity
+e1188,KIT amino acid 577-579 deletion,Entity
+e1189,KIT amino acid 416-422 insertion,Entity
+e1190,KIT amino acid 416-422 deletion,Entity
+e1191,KIT Y823D,Entity
+e1192,KIT Y568_L576delinsCV,Entity
+e1193,KIT Y553_K558del,Entity
+e1194,KIT Y553N,Entity
+e1195,KIT Y503_F504insAY,Entity
+e1196,KIT W557_V560delinsF,Entity
+e1197,KIT W557_V560delinsC,Entity
+e1198,KIT W557_K558del,Entity
+e1199,KIT W557_E561del,Entity
+e1200,KIT W557R,Entity
+e1201,KIT W557G,Entity
+e1202,KIT V654A,Entity
+e1203,KIT V560del,Entity
+e1204,KIT V560_L576del,Entity
+e1205,KIT V560G,Entity
+e1206,KIT V560D,Entity
+e1207,KIT V559_V560del,Entity
+e1208,KIT V559_G565del,Entity
+e1209,KIT V559I,Entity
+e1210,KIT V559G,Entity
+e1211,KIT V559D,Entity
+e1212,KIT V559A,Entity
+e1213,KIT V555_V559del,Entity
+e1214,KIT V530I,Entity
+e1215,KIT T670X,Entity
+e1216,KIT T670I,Entity
+e1217,KIT T417_D419delinsY,Entity
+e1218,KIT S628N,Entity
+e1219,KIT R634Q,Entity
+e1220,KIT P577del,Entity
+e1221,KIT P577_D579del,Entity
+e1222,KIT P551_E554del,Entity
+e1223,KIT N882H,Entity
+e1224,KIT N822X,Entity
+e1225,KIT N822K,Entity
+e1226,KIT N822H,Entity
+e1227,KIT M552_W557del,Entity
+e1228,KIT M541L,Entity
+e1229,KIT L831P,Entity
+e1230,KIT L576del,Entity
+e1231,KIT L576P,Entity
+e1232,KIT K642E,Entity
+e1233,KIT K558delinsNP,Entity
+e1234,KIT K558_V559delinsN,Entity
+e1235,KIT K558_V559del,Entity
+e1236,KIT K550_W557delinsFL,Entity
+e1237,KIT K550_W557del,Entity
+e1238,KIT K550_K559del,Entity
+e1239,KIT K550_K558del,Entity
+e1240,KIT K484_G487del,Entity
+e1241,KIT H697Y,Entity
+e1242,KIT F522C,Entity
+e1243,KIT F506_F508dup,Entity
+e1244,KIT E554_K558del,Entity
+e1245,KIT E554_I571del,Entity
+e1246,KIT D820Y,Entity
+e1247,KIT D820X,Entity
+e1248,KIT D820G,Entity
+e1249,KIT D820E,Entity
+e1250,KIT D820A,Entity
+e1251,KIT D816Y,Entity
+e1252,KIT D816X,Entity
+e1253,KIT D816V,Entity
+e1254,KIT D816H,Entity
+e1255,KIT D816F,Entity
+e1256,KIT D816E,Entity
+e1257,KIT D579del,Entity
+e1258,KIT D579_H580insPYD,Entity
+e1259,KIT C809G,Entity
+e1260,KIT A829P,Entity
+e1261,KIT A502_Y503insAY,Entity
+e1262,KIT A502_Y503dup,Entity
+e1263,KIF5B-RET fusion,Entity
+e1264,KIAA1549-BRAF fusion,Entity
+e1265,KDR mutation,Entity
+e1266,KDR R961W,Entity
+e1267,KDR R1032Q,Entity
+e1268,KDR D717V,Entity
+e1269,KDR A1065T,Entity
+e1270,KANK4-ALK fusion,Entity
+e1271,KANK1-NTRK2 fusion,Entity
+e1272,JAK3 oncogenic mutation,Entity
+e1273,JAK3 mutation,Entity
+e1274,JAK3 R657Q,Entity
+e1275,JAK3 Q501H,Entity
+e1276,JAK3 I87T,Entity
+e1277,JAK3 A573V,Entity
+e1278,JAK3 A572V,Entity
+e1279,JAK2-BRAF fusion,Entity
+e1280,JAK2 oncogenic mutation,Entity
+e1281,JAK2 mutation,Entity
+e1282,JAK2 fusion,Entity
+e1283,JAK2 exon 16 mutation,Entity
+e1284,JAK2 exon 14 mutation,Entity
+e1285,JAK2 exon 12 mutation,Entity
+e1286,JAK2 exon 12 missense mutation,Entity
+e1287,JAK2 amplification,Entity
+e1288,JAK2 V617F,Entity
+e1289,JAK2 F694L,Entity
+e1290,JAK1 overexpression,Entity
+e1291,JAK1 oncogenic mutation,Entity
+e1292,JAK1 mutation,Entity
+e1293,JAK1 S703I,Entity
+e1294,JAK1 S646F,Entity
+e1295,JAK1 R683X,Entity
+e1296,JAK1 Q503*,Entity
+e1297,IRF4 fusion,Entity
+e1298,IL7R oncogenic mutation,Entity
+e1299,IL7R mutation,Entity
+e1300,IL7R fusion,Entity
+e1301,IL7R amino acid 237-255 insertion,Entity
+e1302,IL7R amino acid 237-255 deletion,Entity
+e1303,IL7R S185C,Entity
+e1304,IKZF1 mutation,Entity
+e1305,IKZF1 deletion,Entity
+e1306,IKZF1 absent,Entity
+e1307,IGH-FGFR3 fusion,Entity
+e1308,IGH-CRLF2 fusion,Entity
+e1309,IGH-BCL2 fusion,Entity
+e1310,IGF1R overexpression,Entity
+e1311,IGF1R mutation,Entity
+e1312,IGF1R expression,Entity
+e1313,IGF1R amplification,Entity
+e1314,IDH2 oncogenic mutation,Entity
+e1315,IDH2 mutation,Entity
+e1316,IDH2 exon 4 mutation,Entity
+e1317,IDH2 V305M,Entity
+e1318,IDH2 R172X,Entity
+e1319,IDH2 R172W,Entity
+e1320,IDH2 R172S,Entity
+e1321,IDH2 R172M,Entity
+e1322,IDH2 R172K,Entity
+e1323,IDH2 R172G,Entity
+e1324,IDH2 R140X,Entity
+e1325,IDH2 R140W,Entity
+e1326,IDH2 R140Q,Entity
+e1327,IDH2 R140L,Entity
+e1328,IDH2 R140K,Entity
+e1329,IDH2 R140G,Entity
+e1330,IDH1 oncogenic mutation,Entity
+e1331,IDH1 mutation,Entity
+e1332,IDH1 R132X,Entity
+e1333,IDH1 R132S,Entity
+e1334,IDH1 R132L,Entity
+e1335,IDH1 R132H,Entity
+e1336,IDH1 R132G,Entity
+e1337,IDH1 R132F,Entity
+e1338,IDH1 R132C,Entity
+e1339,HRAS oncogenic mutation,Entity
+e1340,HRAS mutation,Entity
+e1341,HRAS exon 2 mutation,Entity
+e1342,HRAS Q61X,Entity
+e1343,HRAS G13X,Entity
+e1344,HRAS G13D,Entity
+e1345,HRAS G12X,Entity
+e1346,HRAS G12V,Entity
+e1347,HOXB13 mutation,Entity
+e1348,HOXB13 G84E,Entity
+e1349,HIP1-ALK fusion,Entity
+e1350,HIF1A overexpression,Entity
+e1351,HIF1A mutation,Entity
+e1352,HIF1A expression,Entity
+e1353,HGF overexpression,Entity
+e1354,HGF mutation,Entity
+e1355,HGF expression,Entity
+e1356,HGF amplification,Entity
+e1357,HAVCR2 overexpression,Entity
+e1358,HAVCR2 mutation,Entity
+e1359,H3-3A mutation,Entity
+e1360,H3-3A K28M,Entity
+e1361,H3-3A G34W,Entity
+e1362,H3-3A G34R,Entity
+e1363,GOPC-ROS1 fusion,Entity
+e1364,GON4L-NTRK1 fusion,Entity
+e1365,GOLGA5-JAK2 fusion,Entity
+e1366,GOLGA4-RAF1 fusion,Entity
+e1367,GNAS R201X,Entity
+e1368,GNAS R201H,Entity
+e1369,GNAS R201C,Entity
+e1370,GNAQ mutation,Entity
+e1371,GNAQ Q209X,Entity
+e1372,GNAQ Q209P,Entity
+e1373,GNA11 mutation,Entity
+e1374,GNA11 R183C,Entity
+e1375,GNA11 Q209X,Entity
+e1376,GNA11 Q209P,Entity
+e1377,GNA11 Q209L,Entity
+e1378,GLI2 mutation,Entity
+e1379,GLI2 amplification,Entity
+e1380,GATA3 oncogenic mutation,Entity
+e1381,GATA3 mutation,Entity
+e1382,GATA1 oncogenic mutation,Entity
+e1383,GATA1 mutation,Entity
+e1384,FOXP1-ABL1 fusion,Entity
+e1385,FOXA1 mutation,Entity
+e1386,FOXA1 amplification,Entity
+e1387,FLT3-ITD fusion,Entity
+e1388,FLT3 tyrosine kinase domain mutation,Entity
+e1389,FLT3 overexpression,Entity
+e1390,FLT3 oncogenic mutation,Entity
+e1391,FLT3 mutation,Entity
+e1392,FLT3 amplification,Entity
+e1393,FLT3 Y842X,Entity
+e1394,FLT3 Y842C,Entity
+e1395,FLT3 T227M,Entity
+e1396,FLT3 R834Q,Entity
+e1397,FLT3 N841I,Entity
+e1398,FLT3 N676X,Entity
+e1399,FLT3 N676K,Entity
+e1400,FLT3 I867S,Entity
+e1401,FLT3 I836X,Entity
+e1402,FLT3 F691X,Entity
+e1403,FLT3 F691L,Entity
+e1404,FLT3 D839G,Entity
+e1405,FLT3 D835Y,Entity
+e1406,FLT3 D835X,Entity
+e1407,FLT3 D835V,Entity
+e1408,FLT3 D835I,Entity
+e1409,FLT3 D835H,Entity
+e1410,FLT1 overexpression,Entity
+e1411,FLT1 mutation,Entity
+e1412,FLCN oncogenic mutation,Entity
+e1413,FLCN mutation,Entity
+e1414,FLCN copy loss,Entity
+e1415,FIP1L1-PDGFRA fusion,Entity
+e1416,FGFR4 mutation,Entity
+e1417,FGFR4 V550X,Entity
+e1418,FGFR4 N535X,Entity
+e1419,FGFR3-TACC3 fusion,Entity
+e1420,FGFR3-BAIAP2L1 fusion,Entity
+e1421,FGFR3 overexpression,Entity
+e1422,FGFR3 oncogenic mutation,Entity
+e1423,FGFR3 mutation,Entity
+e1424,FGFR3 kinase domain mutation,Entity
+e1425,FGFR3 fusion,Entity
+e1426,FGFR3 Y373C,Entity
+e1427,FGFR3 V555M,Entity
+e1428,FGFR3 S371C,Entity
+e1429,FGFR3 S249C,Entity
+e1430,FGFR3 R248C,Entity
+e1431,FGFR3 K656E,Entity
+e1432,FGFR3 K650X,Entity
+e1433,FGFR3 K650T,Entity
+e1434,FGFR3 K650Q,Entity
+e1435,FGFR3 K650N,Entity
+e1436,FGFR3 K650M,Entity
+e1437,FGFR3 K650L,Entity
+e1438,FGFR3 K650E,Entity
+e1439,FGFR3 K650D,Entity
+e1440,FGFR3 G691R,Entity
+e1441,FGFR3 G380R,Entity
+e1442,FGFR3 G370C,Entity
+e1443,FGFR3 A391E,Entity
+e1444,FGFR2-TACC3 fusion,Entity
+e1445,FGFR2-OGA fusion,Entity
+e1446,FGFR2-CCDC6 fusion,Entity
+e1447,FGFR2-CASP7 fusion,Entity
+e1448,FGFR2-BICC1 fusion,Entity
+e1449,FGFR2-AHCYL1 fusion,Entity
+e1450,FGFR2 oncogenic mutation,Entity
+e1451,FGFR2 mutation,Entity
+e1452,FGFR2 kinase domain mutation,Entity
+e1453,FGFR2 fusion,Entity
+e1454,FGFR2 amplification,Entity
+e1455,FGFR2 W290C,Entity
+e1456,FGFR2 V565I,Entity
+e1457,FGFR2 V564F,Entity
+e1458,FGFR2 S320C,Entity
+e1459,FGFR2 S252W,Entity
+e1460,FGFR2 R565A,Entity
+e1461,FGFR2 P253R,Entity
+e1462,FGFR2 N550X,Entity
+e1463,FGFR2 N550K,Entity
+e1464,FGFR2 N549H,Entity
+e1465,FGFR2 M538I,Entity
+e1466,FGFR2 M536I,Entity
+e1467,FGFR2 L618M,Entity
+e1468,FGFR2 L617V,Entity
+e1469,FGFR2 K660N,Entity
+e1470,FGFR2 K660E,Entity
+e1471,FGFR2 K659M,Entity
+e1472,FGFR2 K641R,Entity
+e1473,FGFR2 I548V,Entity
+e1474,FGFR2 E566G,Entity
+e1475,FGFR2 A266_S267insSTVVGGD,Entity
+e1476,FGFR1OP2-FGFR1 fusion,Entity
+e1477,FGFR1-TACC1 fusion,Entity
+e1478,FGFR1 oncogenic mutation,Entity
+e1479,FGFR1 mutation,Entity
+e1480,FGFR1 kinase domain mutation,Entity
+e1481,FGFR1 fusion,Entity
+e1482,FGFR1 expression,Entity
+e1483,FGFR1 amplification,Entity
+e1484,FGFR1 N546K,Entity
+e1485,FGFR1 N546D,Entity
+e1486,FGFR1 M563I,Entity
+e1487,FGFR1 K687E,Entity
+e1488,FGF4 mutation,Entity
+e1489,FGF4 amplification,Entity
+e1490,FGF3 mutation,Entity
+e1491,FGF3 amplification,Entity
+e1492,FGF2 mutation,Entity
+e1493,FGF2 expression,Entity
+e1494,FGF19 overexpression,Entity
+e1495,FGF19 mutation,Entity
+e1496,FCER2 mutation,Entity
+e1497,FCER2 absent,Entity
+e1498,FBXW7 oncogenic mutation,Entity
+e1499,FBXW7 mutation,Entity
+e1500,FBXW7 loss of function,Entity
+e1501,FBXW7 copy loss,Entity
+e1502,FBXW7 T692*,Entity
+e1503,FAT1 oncogenic mutation,Entity
+e1504,FAT1 mutation,Entity
+e1505,FANCL oncogenic mutation,Entity
+e1506,FANCL mutation,Entity
+e1507,FANCC oncogenic mutation,Entity
+e1508,FANCC mutation,Entity
+e1509,FANCC loss of function,Entity
+e1510,FANCC copy loss,Entity
+e1511,FANCA oncogenic mutation,Entity
+e1512,FANCA mutation,Entity
+e1513,FANCA copy loss,Entity
+e1514,EZH2 overexpression,Entity
+e1515,EZH2 oncogenic mutation,Entity
+e1516,EZH2 mutation,Entity
+e1517,EZH2 expression,Entity
+e1518,EZH2 activating mutation,Entity
+e1519,EZH2 Y646X,Entity
+e1520,EZH2 Y646S,Entity
+e1521,EZH2 Y646N,Entity
+e1522,EZH2 Y646H,Entity
+e1523,EZH2 Y646F,Entity
+e1524,EZH2 Y646C,Entity
+e1525,EZH2 Y641X,Entity
+e1526,EZH2 A692V,Entity
+e1527,EZH2 A682G,Entity
+e1528,EZH2 A677X,Entity
+e1529,ETV6-RUNX1 fusion,Entity
+e1530,ETV6-PDGFRB fusion,Entity
+e1531,ETV6-NTRK3 fusion,Entity
+e1532,ETV6-NTRK2 fusion,Entity
+e1533,ETV6-NTRK1 fusion,Entity
+e1534,ETV6-JAK2 fusion,Entity
+e1535,ETV6-ABL1 fusion,Entity
+e1536,ETV6 oncogenic mutation,Entity
+e1537,ETV6 mutation,Entity
+e1538,ESR1-YAP1 fusion,Entity
+e1539,ESR1 overexpression,Entity
+e1540,ESR1 oncogenic mutation,Entity
+e1541,ESR1 mutation,Entity
+e1542,ESR1 fusion,Entity
+e1543,ESR1 amino acid 538 mutation,Entity
+e1544,ESR1 amino acid 537 mutation,Entity
+e1545,ESR1 absent,Entity
+e1546,ESR1 Y537X,Entity
+e1547,ESR1 Y537S,Entity
+e1548,ESR1 Y537N,Entity
+e1549,ESR1 Y537D,Entity
+e1550,ESR1 Y537C,Entity
+e1551,ESR1 V422del,Entity
+e1552,ESR1 S463P,Entity
+e1553,ESR1 P535H,Entity
+e1554,ESR1 L536X,Entity
+e1555,ESR1 L536Q,Entity
+e1556,ESR1 L469V,Entity
+e1557,ESR1 E380X,Entity
+e1558,ESR1 E380Q,Entity
+e1559,ESR1 D538X,Entity
+e1560,ESR1 D538G,Entity
+e1561,ERCC6 oncogenic mutation,Entity
+e1562,ERCC6 mutation,Entity
+e1563,ERCC4 oncogenic mutation,Entity
+e1564,ERCC4 mutation,Entity
+e1565,ERCC2 oncogenic mutation,Entity
+e1566,ERCC2 mutation,Entity
+e1567,ERCC2 K751Q,Entity
+e1568,ERCC1 underexpression,Entity
+e1569,ERCC1 overexpression,Entity
+e1570,ERCC1 oncogenic mutation,Entity
+e1571,ERCC1 mutation,Entity
+e1572,ERCC1 expression,Entity
+e1573,ERCC1 copy loss,Entity
+e1574,ERBB4 mutation,Entity
+e1575,ERBB4 fusion,Entity
+e1576,ERBB4 expression,Entity
+e1577,ERBB4 R544W,Entity
+e1578,ERBB4 R393W,Entity
+e1579,ERBB4 H809G,Entity
+e1580,ERBB4 E872K,Entity
+e1581,ERBB4 E452K,Entity
+e1582,ERBB4 E317K,Entity
+e1583,ERBB3 overexpression,Entity
+e1584,ERBB3 mutation,Entity
+e1585,ERBB3 expression,Entity
+e1586,ERBB3 amplification,Entity
+e1587,ERBB3 absent,Entity
+e1588,ERBB3 V855A,Entity
+e1589,ERBB3 V104M,Entity
+e1590,ERBB3 R103G,Entity
+e1591,ERBB3 Q809R,Entity
+e1592,ERBB3 P262H,Entity
+e1593,ERBB3 G284R,Entity
+e1594,ERBB2 tyrosine kinase domain mutation,Entity
+e1595,ERBB2 overexpression,Entity
+e1596,ERBB2 oncogenic mutation,Entity
+e1597,ERBB2 mutation,Entity
+e1598,ERBB2 kinase domain mutation,Entity
+e1599,ERBB2 expression,Entity
+e1600,ERBB2 exon 20 mutation,Entity
+e1601,ERBB2 exon 20 in-frame insertion,Entity
+e1602,ERBB2 exon 19 mutation,Entity
+e1603,ERBB2 amplification,Entity
+e1604,ERBB2 amino acid 755-759 deletion,Entity
+e1605,ERBB2 activating mutation,Entity
+e1606,ERBB2 absent,Entity
+e1607,ERBB2 Y772_A775dup,Entity
+e1608,ERBB2 V842I,Entity
+e1609,ERBB2 V777X,Entity
+e1610,ERBB2 V777L,Entity
+e1611,ERBB2 V773A,Entity
+e1612,ERBB2 V659E,Entity
+e1613,ERBB2 T862A,Entity
+e1614,ERBB2 T798M,Entity
+e1615,ERBB2 T798I,Entity
+e1616,ERBB2 S310Y,Entity
+e1617,ERBB2 S310X,Entity
+e1618,ERBB2 S310F,Entity
+e1619,ERBB2 R896C,Entity
+e1620,ERBB2 R678Q,Entity
+e1621,ERBB2 Q709L,Entity
+e1622,ERBB2 P780_Y781insGSP,Entity
+e1623,ERBB2 N857S,Entity
+e1624,ERBB2 M774delinsWLV,Entity
+e1625,ERBB2 M774_A775insAYVM,Entity
+e1626,ERBB2 L869R,Entity
+e1627,ERBB2 L866M,Entity
+e1628,ERBB2 L755_T759del,Entity
+e1629,ERBB2 L755X,Entity
+e1630,ERBB2 L755W,Entity
+e1631,ERBB2 L755S,Entity
+e1632,ERBB2 L755P,Entity
+e1633,ERBB2 K753E,Entity
+e1634,ERBB2 H878Y,Entity
+e1635,ERBB2 G778_S779insLPS,Entity
+e1636,ERBB2 G778_P780dup,Entity
+e1637,ERBB2 G776delinsVC,Entity
+e1638,ERBB2 G776delinsLC,Entity
+e1639,ERBB2 G776delinsCV,Entity
+e1640,ERBB2 G776_V777insVC,Entity
+e1641,ERBB2 G776_V777delinsVCD,Entity
+e1642,ERBB2 G776R,Entity
+e1643,ERBB2 G776L,Entity
+e1644,ERBB2 G776C,Entity
+e1645,ERBB2 G660D,Entity
+e1646,ERBB2 G309E,Entity
+e1647,ERBB2 G309A,Entity
+e1648,ERBB2 E693K,Entity
+e1649,ERBB2 E321G,Entity
+e1650,ERBB2 D769Y,Entity
+e1651,ERBB2 D769N,Entity
+e1652,ERBB2 D769H,Entity
+e1653,ERBB2 C334S,Entity
+e1654,ERBB2 C311R,Entity
+e1655,ERBB2 A775_G776insYVMA,Entity
+e1656,ERBB2 A775_G776insVVMA,Entity
+e1657,ERBB2 A775_G776insV,Entity
+e1658,ERBB2 A775_G776insTVMA,Entity
+e1659,EPOR mutation,Entity
+e1660,EPOR fusion,Entity
+e1661,EPHA2 mutation,Entity
+e1662,EPHA2 amplification,Entity
+e1663,EPHA2 G391R,Entity
+e1664,EPAS1 overexpression,Entity
+e1665,EPAS1 mutation,Entity
+e1666,EP300 oncogenic mutation,Entity
+e1667,EP300 mutation,Entity
+e1668,EML4-NTRK3 fusion,Entity
+e1669,EML4-ALK fusion,Entity
+e1670,EGFR-SEPTIN14 fusion,Entity
+e1671,EGFR-RAD51 fusion,Entity
+e1672,EGFR overexpression,Entity
+e1673,EGFR oncogenic mutation,Entity
+e1674,EGFR mutation,Entity
+e1675,EGFR kinase domain mutation,Entity
+e1676,EGFR gain of function,Entity
+e1677,EGFR expression,Entity
+e1678,EGFR exon 21 mutation,Entity
+e1679,EGFR exon 20 in-frame insertion,Entity
+e1680,EGFR exon 19 in-frame insertion,Entity
+e1681,EGFR exon 19 in-frame deletion,Entity
+e1682,EGFR exon 18 overexpression,Entity
+e1683,EGFR exon 18 mutation,Entity
+e1684,EGFR amplification,Entity
+e1685,EGFR amino acid 769-770 insertion,Entity
+e1686,EGFR amino acid 6-273 deletion,Entity
+e1687,EGFR amino acid 30-336 deletion,Entity
+e1688,EGFR Y801H,Entity
+e1689,EGFR Y764_V765insHH,Entity
+e1690,EGFR W731L,Entity
+e1691,EGFR V851I,Entity
+e1692,EGFR V843I,Entity
+e1693,EGFR V834I,Entity
+e1694,EGFR V774M,Entity
+e1695,EGFR V774A,Entity
+e1696,EGFR V769_D770insASV,Entity
+e1697,EGFR V769L,Entity
+e1698,EGFR V742A,Entity
+e1699,EGFR V441F,Entity
+e1700,EGFR T854I,Entity
+e1701,EGFR T847I,Entity
+e1702,EGFR T790M,Entity
+e1703,EGFR T785A,Entity
+e1704,EGFR T263P,Entity
+e1705,EGFR S786I,Entity
+e1706,EGFR S768_D770dup,Entity
+e1707,EGFR S768T,Entity
+e1708,EGFR S768I,Entity
+e1709,EGFR S720X,Entity
+e1710,EGFR S645C,Entity
+e1711,EGFR S492R,Entity
+e1712,EGFR S464L,Entity
+e1713,EGFR R831H,Entity
+e1714,EGFR R776C,Entity
+e1715,EGFR R705K,Entity
+e1716,EGFR R451C,Entity
+e1717,EGFR R222C,Entity
+e1718,EGFR R108K,Entity
+e1719,EGFR P772_V774insPHV,Entity
+e1720,EGFR P772_H773insYNP,Entity
+e1721,EGFR P753insPS,Entity
+e1722,EGFR P753S,Entity
+e1723,EGFR P546S,Entity
+e1724,EGFR N842S,Entity
+e1725,EGFR N826Y,Entity
+e1726,EGFR N826S,Entity
+e1727,EGFR N771_P772insL,Entity
+e1728,EGFR M766_A767insASV,Entity
+e1729,EGFR M766_A767insAI,Entity
+e1730,EGFR L861X,Entity
+e1731,EGFR L861R,Entity
+e1732,EGFR L861Q,Entity
+e1733,EGFR L861P,Entity
+e1734,EGFR L861G,Entity
+e1735,EGFR L858R,Entity
+e1736,EGFR L838V,Entity
+e1737,EGFR L838P,Entity
+e1738,EGFR L833V,Entity
+e1739,EGFR L798I,Entity
+e1740,EGFR L792X,Entity
+e1741,EGFR L792H,Entity
+e1742,EGFR L747del,Entity
+e1743,EGFR L747_S752delinsQ,Entity
+e1744,EGFR L747_P753delinsS,Entity
+e1745,EGFR L747S,Entity
+e1746,EGFR L747P,Entity
+e1747,EGFR L718X,Entity
+e1748,EGFR L718V,Entity
+e1749,EGFR K806E,Entity
+e1750,EGFR K757R,Entity
+e1751,EGFR K754E,Entity
+e1752,EGFR K467T,Entity
+e1753,EGFR I491M,Entity
+e1754,EGFR H835L,Entity
+e1755,EGFR H773_V774insNPH,Entity
+e1756,EGFR H773_V774insH,Entity
+e1757,EGFR G724S,Entity
+e1758,EGFR G719X,Entity
+e1759,EGFR G719S,Entity
+e1760,EGFR G719D,Entity
+e1761,EGFR G719C,Entity
+e1762,EGFR G719A,Entity
+e1763,EGFR G598V,Entity
+e1764,EGFR G465R,Entity
+e1765,EGFR E884K,Entity
+e1766,EGFR E868G,Entity
+e1767,EGFR E746_T751delinsI,Entity
+e1768,EGFR E746_A750del,Entity
+e1769,EGFR E746G,Entity
+e1770,EGFR E734Q,Entity
+e1771,EGFR E709_T710delinsD,Entity
+e1772,EGFR E709K,Entity
+e1773,EGFR E709G,Entity
+e1774,EGFR E709A,Entity
+e1775,EGFR E690K,Entity
+e1776,EGFR D770delinsGY,Entity
+e1777,EGFR D770_N771insSVD,Entity
+e1778,EGFR D770_N771insNPG,Entity
+e1779,EGFR D770_N771insGT,Entity
+e1780,EGFR D770_N771insGL,Entity
+e1781,EGFR D770_N771insG,Entity
+e1782,EGFR D761Y,Entity
+e1783,EGFR C797Y,Entity
+e1784,EGFR C797X,Entity
+e1785,EGFR C797S,Entity
+e1786,EGFR C797G,Entity
+e1787,EGFR A864T,Entity
+e1788,EGFR A859T,Entity
+e1789,EGFR A763_Y764insFQEA,Entity
+e1790,EGFR A289V,Entity
+e1791,EBF1-PDGFRB fusion,Entity
+e1792,EBF1-JAK2 fusion,Entity
+e1793,DUX4 fusion,Entity
+e1794,DUSP22-IRF4 fusion,Entity
+e1795,DUSP22 fusion,Entity
+e1796,DNMT3A oncogenic mutation,Entity
+e1797,DNMT3A mutation,Entity
+e1798,DNMT3A R882X,Entity
+e1799,DNMT3A R882C,Entity
+e1800,DICER1 mutation,Entity
+e1801,DICER1 E1813Q,Entity
+e1802,DICER1 E1705K,Entity
+e1803,DICER1 D1709N,Entity
+e1804,DICER1 D1709G,Entity
+e1805,DICER1 D1709E,Entity
+e1806,DDR2-NTRK1 fusion,Entity
+e1807,DDR2 mutation,Entity
+e1808,DDR2 S768R,Entity
+e1809,DDR2 L63V,Entity
+e1810,DDR2 L239R,Entity
+e1811,DDR2 I638F,Entity
+e1812,DDR2 G774V,Entity
+e1813,DDR2 G505S,Entity
+e1814,DDR2 G253C,Entity
+e1815,DCTN1-ALK fusion,Entity
+e1816,CYP2D6 mutation,Entity
+e1817,CYP2D6 loss of function,Entity
+e1818,CXCR4 oncogenic mutation,Entity
+e1819,CXCR4 mutation,Entity
+e1820,CXCR4 expression,Entity
+e1821,CUX1-BRAF fusion,Entity
+e1822,CTNNB1 oncogenic mutation,Entity
+e1823,CTNNB1 mutation,Entity
+e1824,CTNNB1 exon 3 mutation,Entity
+e1825,CTNNB1 activating mutation,Entity
+e1826,CTNNB1 T41I,Entity
+e1827,CTNNB1 T41A,Entity
+e1828,CTNNB1 S45P,Entity
+e1829,CTNNB1 S45F,Entity
+e1830,CTNNB1 S37Y,Entity
+e1831,CTNNB1 S37F,Entity
+e1832,CTNNB1 S37C,Entity
+e1833,CTNNB1 S33P,Entity
+e1834,CTNNB1 S33F,Entity
+e1835,CTNNB1 S33C,Entity
+e1836,CTNNB1 H36Y,Entity
+e1837,CTNNB1 G34V,Entity
+e1838,CTNNB1 G34R,Entity
+e1839,CTNNB1 G34E,Entity
+e1840,CTNNB1 D32Y,Entity
+e1841,CTNNB1 D32V,Entity
+e1842,CTNNB1 D32N,Entity
+e1843,CTNNB1 D32G,Entity
+e1844,CTLA4-CD28 fusion,Entity
+e1845,CTLA4 mutation,Entity
+e1846,CTAG1B overexpression,Entity
+e1847,CTAG1B mutation,Entity
+e1848,CSF3R oncogenic mutation,Entity
+e1849,CSF3R mutation,Entity
+e1850,CSF3R T618I,Entity
+e1851,CSF3R S783fs,Entity
+e1852,CSF3R Q749X,Entity
+e1853,CSF3R D771fs,Entity
+e1854,CSF1R mutation,Entity
+e1855,CSF1R fusion,Entity
+e1856,CSF1R Y571D,Entity
+e1857,CRLF2 mutation,Entity
+e1858,CRLF2 fusion,Entity
+e1859,CREBBP oncogenic mutation,Entity
+e1860,CREBBP mutation,Entity
+e1861,CRBN underexpression,Entity
+e1862,CRBN oncogenic mutation,Entity
+e1863,CRBN mutation,Entity
+e1864,CRBN R283K,Entity
+e1865,CRBN Q100*,Entity
+e1866,CLTC-ALK fusion,Entity
+e1867,CIC-DUX4 fusion,Entity
+e1868,CHEK2 oncogenic mutation,Entity
+e1869,CHEK2 mutation,Entity
+e1870,CHEK2 loss of function,Entity
+e1871,CHEK2 copy loss,Entity
+e1872,CHEK2 I157T,Entity
+e1873,CHEK1 overexpression,Entity
+e1874,CHEK1 oncogenic mutation,Entity
+e1875,CHEK1 mutation,Entity
+e1876,CENPC-ABL1 fusion,Entity
+e1877,CEBPA oncogenic mutation,Entity
+e1878,CEBPA mutation,Entity
+e1879,CDKN2C oncogenic mutation,Entity
+e1880,CDKN2C mutation,Entity
+e1881,CDKN2C copy loss,Entity
+e1882,CDKN2B oncogenic mutation,Entity
+e1883,CDKN2B mutation,Entity
+e1884,CDKN2B methylation,Entity
+e1885,CDKN2B copy loss,Entity
+e1886,CDKN2B absent,Entity
+e1887,CDKN2B N41D,Entity
+e1888,CDKN2A promoter hypermethylation,Entity
+e1889,CDKN2A oncogenic mutation,Entity
+e1890,CDKN2A mutation,Entity
+e1891,CDKN2A deletion,Entity
+e1892,CDKN2A copy loss,Entity
+e1893,CDKN2A absent,Entity
+e1894,CDKN2A E88*,Entity
+e1895,CDKN2A D84F,Entity
+e1896,CDKN1B oncogenic mutation,Entity
+e1897,CDKN1B mutation,Entity
+e1898,CDKN1B expression,Entity
+e1899,CDKN1B copy loss,Entity
+e1900,CDKN1A oncogenic mutation,Entity
+e1901,CDKN1A mutation,Entity
+e1902,CDKN1A expression,Entity
+e1903,CDKN1A copy loss,Entity
+e1904,CDK6 overexpression,Entity
+e1905,CDK6 oncogenic mutation,Entity
+e1906,CDK6 mutation,Entity
+e1907,CDK6 expression,Entity
+e1908,CDK6 amplification,Entity
+e1909,CDK4 oncogenic mutation,Entity
+e1910,CDK4 mutation,Entity
+e1911,CDK4 expression,Entity
+e1912,CDK4 amplification,Entity
+e1913,CDK4 R24C,Entity
+e1914,CDK12 truncating mutation,Entity
+e1915,CDK12 oncogenic mutation,Entity
+e1916,CDK12 mutation,Entity
+e1917,CDK12 loss of function,Entity
+e1918,CDK12 amplification,Entity
+e1919,CDH1 oncogenic mutation,Entity
+e1920,CDH1 mutation,Entity
+e1921,CD79B oncogenic mutation,Entity
+e1922,CD79B mutation,Entity
+e1923,CD74-ROS1 fusion,Entity
+e1924,CD72-ROS1 fusion,Entity
+e1925,CD274 overexpression,Entity
+e1926,CD274 mutation,Entity
+e1927,CD274 expression,Entity
+e1928,CD274 amplification,Entity
+e1929,CCNE1 overexpression,Entity
+e1930,CCNE1 mutation,Entity
+e1931,CCNE1 amplification,Entity
+e1932,CCND3 mutation,Entity
+e1933,CCND3 amplification,Entity
+e1934,CCND2 promoter demethylation,Entity
+e1935,CCND2 overexpression,Entity
+e1936,CCND2 mutation,Entity
+e1937,CCND2 amplification,Entity
+e1938,CCND1 overexpression,Entity
+e1939,CCND1 mutation,Entity
+e1940,CCND1 expression,Entity
+e1941,CCND1 amplification,Entity
+e1942,CCDC6-RET fusion,Entity
+e1943,CBL oncogenic mutation,Entity
+e1944,CBL mutation,Entity
+e1945,CBL exon 8 mutation,Entity
+e1946,CBL Y371H,Entity
+e1947,CBL C384R,Entity
+e1948,CALR oncogenic mutation,Entity
+e1949,CALR mutation,Entity
+e1950,CALR exon 9 mutation,Entity
+e1951,CALR exon 9 frameshift,Entity
+e1952,CAD-ALK fusion,Entity
+e1953,CA9 overexpression,Entity
+e1954,CA9 mutation,Entity
+e1955,BTK mutation,Entity
+e1956,BTK T474S,Entity
+e1957,BTK T474I,Entity
+e1958,BTK T316A,Entity
+e1959,BTK C481Y,Entity
+e1960,BTK C481X,Entity
+e1961,BTK C481S,Entity
+e1962,BTK C481R,Entity
+e1963,BTK C481F,Entity
+e1964,BRIP1 oncogenic mutation,Entity
+e1965,BRIP1 mutation,Entity
+e1966,BRD4-NUTM1 fusion,Entity
+e1967,BRD4-C15orf55 fusion,Entity
+e1968,BRD4 mutation,Entity
+e1969,BRCA2 truncating mutation,Entity
+e1970,BRCA2 oncogenic mutation,Entity
+e1971,BRCA2 mutation,Entity
+e1972,BRCA2 loss of function,Entity
+e1973,BRCA2 copy loss,Entity
+e1974,BRCA2 V211L,Entity
+e1975,BRCA2 V211I,Entity
+e1976,BRCA2 V159M,Entity
+e1977,BRCA2 R2336P,Entity
+e1978,BRCA2 M1R,Entity
+e1979,BRCA2 M1I,Entity
+e1980,BRCA2 K3326*,Entity
+e1981,BRCA2 D3095E,Entity
+e1982,BRCA2 A406Lfs*9,Entity
+e1983,BRCA1 underexpression,Entity
+e1984,BRCA1 oncogenic mutation,Entity
+e1985,BRCA1 mutation,Entity
+e1986,BRCA1 loss of function,Entity
+e1987,BRCA1 expression,Entity
+e1988,BRCA1 copy loss,Entity
+e1989,BRCA1 W1815X,Entity
+e1990,BRCA1 Q1467*,Entity
+e1991,BRCA1 P968fs,Entity
+e1992,BRAF-CUL1 fusion,Entity
+e1993,BRAF oncogenic mutation,Entity
+e1994,BRAF mutation,Entity
+e1995,BRAF intron 9 fusion,Entity
+e1996,BRAF intron 10 fusion,Entity
+e1997,BRAF fusion,Entity
+e1998,BRAF exon 15 mutation,Entity
+e1999,BRAF exon 11 mutation,Entity
+e2000,BRAF deletion,Entity
+e2001,BRAF amplification,Entity
+e2002,BRAF Y472C,Entity
+e2003,BRAF V600X,Entity
+e2004,BRAF V600R,Entity
+e2005,BRAF V600M,Entity
+e2006,BRAF V600K,Entity
+e2007,BRAF V600G,Entity
+e2008,BRAF V600E,Entity
+e2009,BRAF V600D,Entity
+e2010,BRAF T599dup,Entity
+e2011,BRAF P731T,Entity
+e2012,BRAF P490del,Entity
+e2013,BRAF N581X,Entity
+e2014,BRAF N581S,Entity
+e2015,BRAF N486_P490del,Entity
+e2016,BRAF L597X,Entity
+e2017,BRAF L597V,Entity
+e2018,BRAF L597S,Entity
+e2019,BRAF L597R,Entity
+e2020,BRAF L597Q,Entity
+e2021,BRAF L505H,Entity
+e2022,BRAF L485del,Entity
+e2023,BRAF L485W,Entity
+e2024,BRAF K601X,Entity
+e2025,BRAF K601R,Entity
+e2026,BRAF K601E,Entity
+e2027,BRAF K483M,Entity
+e2028,BRAF G606E,Entity
+e2029,BRAF G596V,Entity
+e2030,BRAF G596R,Entity
+e2031,BRAF G596C,Entity
+e2032,BRAF G496A,Entity
+e2033,BRAF G469X,Entity
+e2034,BRAF G469V,Entity
+e2035,BRAF G469R,Entity
+e2036,BRAF G469E,Entity
+e2037,BRAF G469A,Entity
+e2038,BRAF G466X,Entity
+e2039,BRAF G466V,Entity
+e2040,BRAF G464X,Entity
+e2041,BRAF G464V,Entity
+e2042,BRAF G463E,Entity
+e2043,BRAF D594V,Entity
+e2044,BRAF D594N,Entity
+e2045,BRAF D594K,Entity
+e2046,BRAF D594G,Entity
+e2047,BRAF D594A,Entity
+e2048,BRAF A728V,Entity
+e2049,BRAF A598V,Entity
+e2050,BIRC3-MALT1 fusion,Entity
+e2051,BIRC3 truncating mutation,Entity
+e2052,BIRC3 oncogenic mutation,Entity
+e2053,BIRC3 mutation,Entity
+e2054,BCR-PDGFRA fusion,Entity
+e2055,BCR-NTRK2 fusion,Entity
+e2056,BCR-JAK2 fusion,Entity
+e2057,BCR-ABL1 fusion,Entity
+e2058,BCOR-CCNB3 fusion,Entity
+e2059,BCOR oncogenic mutation,Entity
+e2060,BCOR mutation,Entity
+e2061,BCL6 overexpression,Entity
+e2062,BCL6 mutation,Entity
+e2063,BCL6 fusion,Entity
+e2064,BCL2L11 mutation,Entity
+e2065,BCL2L11 deletion,Entity
+e2066,BCL2 overexpression,Entity
+e2067,BCL2 mutation,Entity
+e2068,BCL2 fusion,Entity
+e2069,BCL2 amplification,Entity
+e2070,BCL2 G101V,Entity
+e2071,BCL2 F104I,Entity
+e2072,BARD1 oncogenic mutation,Entity
+e2073,BARD1 mutation,Entity
+e2074,BARD1 loss of function,Entity
+e2075,BAP1 oncogenic mutation,Entity
+e2076,BAP1 mutation,Entity
+e2077,BAP1 expression,Entity
+e2078,BAP1 exon 3 frameshift,Entity
+e2079,BAP1 copy loss,Entity
+e2080,BAP1 W202L,Entity
+e2081,BAP1 T254fs,Entity
+e2082,BAP1 R300Gfs*6,Entity
+e2083,BAP1 Q593*,Entity
+e2084,BAP1 Q410*,Entity
+e2085,BAP1 N89Pfs*4,Entity
+e2086,BAP1 M371Cfs*59,Entity
+e2087,BAP1 H669Qfs*41,Entity
+e2088,B2M oncogenic mutation,Entity
+e2089,B2M mutation,Entity
+e2090,B2M S14fs,Entity
+e2091,AXL mutation,Entity
+e2092,AXL expression,Entity
+e2093,AURKA overexpression,Entity
+e2094,AURKA mutation,Entity
+e2095,AURKA expression,Entity
+e2096,AURKA amplification,Entity
+e2097,AURKA V57I,Entity
+e2098,AURKA F31I,Entity
+e2099,ATRX underexpression,Entity
+e2100,ATRX mutation,Entity
+e2101,ATRX deletion,Entity
+e2102,ATR oncogenic mutation,Entity
+e2103,ATR mutation,Entity
+e2104,ATR copy loss,Entity
+e2105,ATR I774fs,Entity
+e2106,ATP1B1-NRG1 fusion,Entity
+e2107,ATM underexpression,Entity
+e2108,ATM oncogenic mutation,Entity
+e2109,ATM mutation,Entity
+e2110,ATM deletion,Entity
+e2111,ATM copy loss,Entity
+e2112,ATM T2666A,Entity
+e2113,ATM S2289*,Entity
+e2114,ATM R3008C,Entity
+e2115,ATM N2875H,Entity
+e2116,ATM L2427P,Entity
+e2117,ATM K468fs,Entity
+e2118,ATM K293*,Entity
+e2119,ATM F2732V,Entity
+e2120,ATM F1025L,Entity
+e2121,ATM E2187*,Entity
+e2122,ATM D1930V,Entity
+e2123,ATM D1682H,Entity
+e2124,ATM C2488Y,Entity
+e2125,ATM A2062V,Entity
+e2126,ATF7IP-JAK2 fusion,Entity
+e2127,ASXL1 oncogenic mutation,Entity
+e2128,ASXL1 mutation,Entity
+e2129,ASPSCR1-TFE3 fusion,Entity
+e2130,ARID1A underexpression,Entity
+e2131,ARID1A truncating mutation,Entity
+e2132,ARID1A oncogenic mutation,Entity
+e2133,ARID1A mutation,Entity
+e2134,ARID1A amplification,Entity
+e2135,ARID1A absent,Entity
+e2136,ARID1A Q456*,Entity
+e2137,ARID1A P1175fs*5,Entity
+e2138,ARAF oncogenic mutation,Entity
+e2139,ARAF mutation,Entity
+e2140,ARAF V145L,Entity
+e2141,ARAF S490T,Entity
+e2142,ARAF S214F,Entity
+e2143,ARAF S214C,Entity
+e2144,AR overexpression,Entity
+e2145,AR mutation,Entity
+e2146,AR amplification,Entity
+e2147,AR W742X,Entity
+e2148,AR T878S,Entity
+e2149,AR T878A,Entity
+e2150,AR L702H,Entity
+e2151,AR H875Y,Entity
+e2152,AR F877L,Entity
+e2153,APP-NRG1 fusion,Entity
+e2154,APC oncogenic mutation,Entity
+e2155,APC mutation,Entity
+e2156,ANO10-RAF1 fusion,Entity
+e2157,ALK oncogenic mutation,Entity
+e2158,ALK mutation,Entity
+e2159,ALK fusion,Entity
+e2160,ALK amplification,Entity
+e2161,ALK V1180X,Entity
+e2162,ALK V1180L,Entity
+e2163,ALK T1151dup,Entity
+e2164,ALK S1206Y,Entity
+e2165,ALK R1275Q,Entity
+e2166,ALK R1192P,Entity
+e2167,ALK L1198F,Entity
+e2168,ALK L1196X,Entity
+e2169,ALK L1196M,Entity
+e2170,ALK L1152R,Entity
+e2171,ALK I1171X,Entity
+e2172,ALK I1171T,Entity
+e2173,ALK I1171S,Entity
+e2174,ALK I1171N,Entity
+e2175,ALK G1269A,Entity
+e2176,ALK G1202X,Entity
+e2177,ALK G1202R,Entity
+e2178,ALK G1128A,Entity
+e2179,ALK G1123S,Entity
+e2180,ALK F856S,Entity
+e2181,ALK F1245V,Entity
+e2182,ALK F1245C,Entity
+e2183,ALK F1174X,Entity
+e2184,ALK F1174L,Entity
+e2185,ALK E1408V,Entity
+e2186,ALK C1156Y,Entity
+e2187,ALK A348D,Entity
+e2188,AKT3 overexpression,Entity
+e2189,AKT3 mutation,Entity
+e2190,AKT3 fusion,Entity
+e2191,AKT3 E17K,Entity
+e2192,AKT2 mutation,Entity
+e2193,AKT2 expression,Entity
+e2194,AKT2 amplification,Entity
+e2195,AKT2 L78_Q79insHANTFVIRCL,Entity
+e2196,AKT2 E17K,Entity
+e2197,AKT1 overexpression,Entity
+e2198,AKT1 mutation,Entity
+e2199,AKT1 Q79K,Entity
+e2200,AKT1 L52R,Entity
+e2201,AKT1 H238Y,Entity
+e2202,AKT1 E40K,Entity
+e2203,AKT1 E17K,Entity
+e2204,AKT1 D323G,Entity
+e2205,AKAP9-BRAF fusion,Entity
+e2206,AGK-BRAF fusion,Entity
+e2207,AGGF1-PDGFRB fusion,Entity
+e2208,AFDN-KMT2A fusion,Entity
+e2209,AFAP1-NTRK2 fusion,Entity
+e2210,ACVR1 mutation,Entity
+e2211,ACVR1 gain of function,Entity
+e2212,ACVR1 R206H,Entity
+e2213,ACVR1 G356D,Entity
+e2214,ACVR1 G328W,Entity
+e2215,ACVR1 G328V,Entity
+e2216,ACVR1 G328E,Entity
+e2217,ABL2 mutation,Entity
+e2218,ABL2 fusion,Entity
+e2219,ABL2 W469C,Entity
+e2220,ABL1-BCR fusion,Entity
+e2221,ABL1 mutation,Entity
+e2222,ABL1 fusion,Entity
+e2223,ABL1 Y393C,Entity
+e2224,ABL1 Y342H,Entity
+e2225,ABL1 Y320C,Entity
+e2226,ABL1 Y253H,Entity
+e2227,ABL1 Y253F,Entity
+e2228,ABL1 W261L,Entity
+e2229,ABL1 V379I,Entity
+e2230,ABL1 V371A,Entity
+e2231,ABL1 V299L,Entity
+e2232,ABL1 V289I,Entity
+e2233,ABL1 V289A,Entity
+e2234,ABL1 V280A,Entity
+e2235,ABL1 T315V,Entity
+e2236,ABL1 T315I,Entity
+e2237,ABL1 T315A,Entity
+e2238,ABL1 T277A,Entity
+e2239,ABL1 S438C,Entity
+e2240,ABL1 S417Y,Entity
+e2241,ABL1 S417F,Entity
+e2242,ABL1 R351W,Entity
+e2243,ABL1 Q300R,Entity
+e2244,ABL1 Q252R,Entity
+e2245,ABL1 Q252H,Entity
+e2246,ABL1 P480L,Entity
+e2247,ABL1 P480A,Entity
+e2248,ABL1 N336S,Entity
+e2249,ABL1 N331S,Entity
+e2250,ABL1 N146S,Entity
+e2251,ABL1 M472I,Entity
+e2252,ABL1 M388L,Entity
+e2253,ABL1 M351T,Entity
+e2254,ABL1 M343T,Entity
+e2255,ABL1 M244V,Entity
+e2256,ABL1 M237V,Entity
+e2257,ABL1 L387V,Entity
+e2258,ABL1 L387M,Entity
+e2259,ABL1 L387F,Entity
+e2260,ABL1 L384M,Entity
+e2261,ABL1 L370P,Entity
+e2262,ABL1 L364P,Entity
+e2263,ABL1 L364I,Entity
+e2264,ABL1 L324Q,Entity
+e2265,ABL1 L298V,Entity
+e2266,ABL1 L273M,Entity
+e2267,ABL1 L248V,Entity
+e2268,ABL1 L248R,Entity
+e2269,ABL1 K247R,Entity
+e2270,ABL1 I418V,Entity
+e2271,ABL1 I418S,Entity
+e2272,ABL1 I293V,Entity
+e2273,ABL1 I242T,Entity
+e2274,ABL1 H396R,Entity
+e2275,ABL1 H396P,Entity
+e2276,ABL1 H396A,Entity
+e2277,ABL1 G398R,Entity
+e2278,ABL1 G340L,Entity
+e2279,ABL1 G250R,Entity
+e2280,ABL1 G250E,Entity
+e2281,ABL1 F486S,Entity
+e2282,ABL1 F382L,Entity
+e2283,ABL1 F359V,Entity
+e2284,ABL1 F359L,Entity
+e2285,ABL1 F359I,Entity
+e2286,ABL1 F359C,Entity
+e2287,ABL1 F317V,Entity
+e2288,ABL1 F317S,Entity
+e2289,ABL1 F317R,Entity
+e2290,ABL1 F317L,Entity
+e2291,ABL1 F317I,Entity
+e2292,ABL1 F317C,Entity
+e2293,ABL1 F311L,Entity
+e2294,ABL1 F311I,Entity
+e2295,ABL1 E98G,Entity
+e2296,ABL1 E507G,Entity
+e2297,ABL1 E459V,Entity
+e2298,ABL1 E459K,Entity
+e2299,ABL1 E459G,Entity
+e2300,ABL1 E459A,Entity
+e2301,ABL1 E453V,Entity
+e2302,ABL1 E453Q,Entity
+e2303,ABL1 E453K,Entity
+e2304,ABL1 E453G,Entity
+e2305,ABL1 E453A,Entity
+e2306,ABL1 E450V,Entity
+e2307,ABL1 E450Q,Entity
+e2308,ABL1 E450K,Entity
+e2309,ABL1 E450G,Entity
+e2310,ABL1 E450A,Entity
+e2311,ABL1 E373K,Entity
+e2312,ABL1 E355G,Entity
+e2313,ABL1 E355D,Entity
+e2314,ABL1 E355A,Entity
+e2315,ABL1 E292V,Entity
+e2316,ABL1 E292Q,Entity
+e2317,ABL1 E292L,Entity
+e2318,ABL1 E279K,Entity
+e2319,ABL1 E275Q,Entity
+e2320,ABL1 E275K,Entity
+e2321,ABL1 E258D,Entity
+e2322,ABL1 E255V,Entity
+e2323,ABL1 E255K,Entity
+e2324,ABL1 D421G,Entity
+e2325,ABL1 D363Y,Entity
+e2326,ABL1 D363G,Entity
+e2327,ABL1 D276G,Entity
+e2328,ABL1 C475V,Entity
+e2329,ABL1 A433T,Entity
+e2330,ABL1 A397P,Entity
+e2331,ABL1 A380T,Entity
+e2332,ABL1 A366G,Entity
+e2333,ABL1 A365V,Entity
+e2334,ABL1 A350V,Entity
+e2335,ABL1 A344V,Entity

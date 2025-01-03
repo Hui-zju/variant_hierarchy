@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mutation Hierarchical Visualization</title>
+  <title>Hierarchical Tree Visualization</title>
   <script src="https://d3js.org/d3.v7.min.js"></script>
   <style>
     .node circle {
@@ -13,7 +13,6 @@
     }
     .node text {
       font: 12px sans-serif;
-      pointer-events: none;
     }
     .link {
       fill: none;
@@ -34,7 +33,7 @@
 </head>
 <body>
   <input id="searchBox" type="text" placeholder="Search node by name..." />
-  <svg width="800" height="600"></svg>
+  <svg width="960" height="600"></svg>
   <script src="script.js"></script>
 </body>
 </html>

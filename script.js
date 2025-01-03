@@ -3,87 +3,80 @@ const edgeFile = 'edge.csv';
 
 // Load CSV data
 Promise.all([d3.csv(nodeFile), d3.csv(edgeFile)]).then(([nodes, edges]) => {
-  const data = {
-    nodes: nodes.map(node => ({
-      id: node["entity:ID"],
-      name: node.name,
-      label: node[":LABEL"]
-    })),
-    links: edges.map(edge => ({
-      source: edge.source,
-      target: edge.target,
-      type: edge.contain
-    }))
-  };
-
-  drawGraph(data);
+  const nodeMap = new Map(nodes.map(node => [node["entity:ID"], node]));
+  
+  const treeData = buildTree(nodes, edges, nodeMap);
+  drawTree(treeData);
 });
 
-function drawGraph(data) {
-  const width = 800;
+function buildTree(nodes, edges, nodeMap) {
+  const rootId = nodes[0]["entity:ID"];
+  const childrenMap = edges.reduce((map, edge) => {
+    const parent = edge.source;
+    const child = edge.target;
+    if (!map[parent]) map[parent] = [];
+    map[parent].push(child);
+    return map;
+  }, {});
+
+  function createNode(id) {
+    const node = nodeMap.get(id);
+    return {
+      id,
+      name: node.name,
+      label: node[":LABEL"],
+      children: (childrenMap[id] || []).map(createNode),
+    };
+  }
+
+  return createNode(rootId);
+}
+
+function drawTree(data) {
+  const width = 960;
   const height = 600;
 
-  const svg = d3.select('svg');
-  const simulation = d3.forceSimulation(data.nodes)
-    .force('link', d3.forceLink(data.links).id(d => d.id).distance(150))
-    .force('charge', d3.forceManyBody().strength(-400))
-    .force('center', d3.forceCenter(width / 2, height / 2));
+  const treeLayout = d3.tree().size([height, width - 160]);
+  const root = d3.hierarchy(data);
 
-  const link = svg.append('g')
-    .selectAll('.link')
-    .data(data.links)
-    .enter().append('line')
-    .attr('class', 'link');
+  const svg = d3.select('svg')
+    .attr('viewBox', [0, 0, width, height]);
 
-  const node = svg.append('g')
-    .selectAll('.node')
-    .data(data.nodes)
+  const g = svg.append('g').attr('transform', 'translate(40,0)');
+
+  treeLayout(root);
+
+  const link = g.selectAll('.link')
+    .data(root.links())
+    .enter().append('path')
+    .attr('class', 'link')
+    .attr('d', d3.linkHorizontal()
+      .x(d => d.y)
+      .y(d => d.x));
+
+  const node = g.selectAll('.node')
+    .data(root.descendants())
     .enter().append('g')
     .attr('class', 'node')
-    .call(d3.drag()
-      .on('start', dragstarted)
-      .on('drag', dragged)
-      .on('end', dragended));
+    .attr('transform', d => `translate(${d.y},${d.x})`);
 
   node.append('circle')
-    .attr('r', 10);
+    .attr('r', 5)
+    .on('click', (event, d) => {
+      d.children = d.children ? null : d._children;
+      drawTree(data);
+    });
 
   node.append('text')
-    .attr('dx', 12)
-    .attr('dy', '.35em')
-    .text(d => d.name);
-
-  simulation.on('tick', () => {
-    link
-      .attr('x1', d => d.source.x)
-      .attr('y1', d => d.source.y)
-      .attr('x2', d => d.target.x)
-      .attr('y2', d => d.target.y);
-
-    node.attr('transform', d => `translate(${d.x},${d.y})`);
-  });
+    .attr('dy', 3)
+    .attr('x', d => d.children ? -8 : 8)
+    .style('text-anchor', d => d.children ? 'end' : 'start')
+    .text(d => d.data.name);
 
   // Search functionality
   d3.select('#searchBox').on('input', function () {
     const searchTerm = this.value.toLowerCase();
     node.selectAll('circle')
-      .classed('highlight', d => d.name.toLowerCase().includes(searchTerm));
+      .classed('highlight', d => d.data.name.toLowerCase().includes(searchTerm));
   });
-
-  function dragstarted(event, d) {
-    if (!event.active) simulation.alphaTarget(0.3).restart();
-    d.fx = d.x;
-    d.fy = d.y;
-  }
-
-  function dragged(event, d) {
-    d.fx = event.x;
-    d.fy = event.y;
-  }
-
-  function dragended(event, d) {
-    if (!event.active) simulation.alphaTarget(0);
-    d.fx = null;
-    d.fy = null;
-  }
 }
