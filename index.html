@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Variant Hierarchy</title>
+  <script src="https://unpkg.com/cytoscape/dist/cytoscape.min.js"></script>
+</head>
+<body>
+  <h1>Variant Hierarchy Visualization</h1>
+  <div id="cy" style="width: 100%; height: 500px;"></div>
+  <script>
+    const data = {
+      nodes: [
+        { data: { id: '1', label: 'Variant A' } },
+        { data: { id: '2', label: 'Variant B' } },
+        { data: { id: '3', label: 'Sub-Variant A1' } }
+      ],
+      edges: [
+        { data: { source: '1', target: '3' } },
+        { data: { source: '1', target: '2' } }
+      ]
+    };
+
+    const cy = cytoscape({
+      container: document.getElementById('cy'),
+      elements: data,
+      layout: { name: 'breadthfirst' },
+      style: [
+        { selector: 'node', style: { 'label': 'data(label)', 'background-color': '#0074D9' } },
+        { selector: 'edge', style: { 'line-color': '#aaa' } }
+      ]
+    });
+  </script>
+</body>
+</html>
