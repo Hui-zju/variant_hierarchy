@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    position: relative;
+}
+
+h1 {
+    text-align: center;
+    font-size: 20px;  /* 设置字体大小 */
+}
+
+#search-container {
+    display: flex;                        /* 水平排列输入框容器 */
+    gap: 20px;                            /* 输入框之间的间距 */
+    margin-bottom: 20px;                  /* 给树状图区域留出空间 */
+    position: relative;                   /* 相对定位，用于定位结果框 */
+}
+
+.search-wrapper {
+    position: relative;                   /* 确保搜索结果框定位在输入框下方 */
+    flex: 1;                               /* 使两个输入框在同一水平分布，宽度相等 */
+}
+
+#search-box, #gene-search-box {
+    width: 100%;                            /* 设置输入框的宽度，确保两个框处于同一水平 */
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#search-results, #gene-search-results {
+    width: 100%;                             /* 搜索结果框宽度与输入框一致 */
+    background: #fff;
+    border: 1px solid #ccc;
+    max-height: 200px;
+    overflow-y: auto;
+    display: none;                          /* 默认隐藏搜索结果框 */
+    position: absolute;                     /* 绝对定位 */
+    z-index: 1000;                          /* 确保搜索结果框位于输入框之上 */
+    top: 100%;                              /* 使结果框紧接着输入框 */
+}
+
+#search-results div, #gene-search-results div {
+    padding: 8px;
+    cursor: pointer;
+}
+
+#search-results div:hover, #gene-search-results div:hover {
+    background-color: #f0f0f0;
+}
+
+#tree-svg {
+    border: 1px solid #ccc;
+    display: block;
+    margin-top: 20px;                        /* 给树状图和搜索框之间留空间 */
+}
