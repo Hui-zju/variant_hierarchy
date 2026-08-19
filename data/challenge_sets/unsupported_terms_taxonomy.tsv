@@ -1,0 +1,131 @@
+id	raw_term	reference	category_id	category_name	recommendation
+UNSUP-0001	Loss	CCND3	U06	Ambiguous loss/truncation ontology term	Requires ontology decision before inclusion
+UNSUP-0002	P780ins	ERBB2	U07	Potentially standardizable cancer variant form not yet parsed	Good candidate for future parser extension and a later challenge-set stratum
+UNSUP-0003	reg_e@[IGH]::BCL2	BCL2	U08	Complex fusion/transcript/cytogenetic expression	Needs explicit fusion/transcript representation before inclusion
+UNSUP-0004	e7::e6	EWSR1::FLI1	U08	Complex fusion/transcript/cytogenetic expression	Needs explicit fusion/transcript representation before inclusion
+UNSUP-0005	Loss	PTEN	U06	Ambiguous loss/truncation ontology term	Requires ontology decision before inclusion
+UNSUP-0006	RS61764370	KRAS	U02	Pharmacogenomic/SNP/star-allele identifier	Exclude unless rsID/star-allele normalization is added as a separate module
+UNSUP-0007	RS751402	ERCC5	U02	Pharmacogenomic/SNP/star-allele identifier	Exclude unless rsID/star-allele normalization is added as a separate module
+UNSUP-0008	rs17084733	KIT	U02	Pharmacogenomic/SNP/star-allele identifier	Exclude unless rsID/star-allele normalization is added as a separate module
+UNSUP-0009	5' TANDEM REPEAT	TYMS	U10	Other unsupported or ambiguous expression	Manual triage needed before deciding challenge-set inclusion
+UNSUP-0010	VIII	EGFR	U10	Other unsupported or ambiguous expression	Manual triage needed before deciding challenge-set inclusion
+UNSUP-0011	RS3910384	WEE1	U02	Pharmacogenomic/SNP/star-allele identifier	Exclude unless rsID/star-allele normalization is added as a separate module
+UNSUP-0012	RS11623866	FNTB	U02	Pharmacogenomic/SNP/star-allele identifier	Exclude unless rsID/star-allele normalization is added as a separate module
+UNSUP-0013	RS16906252	MGMT	U02	Pharmacogenomic/SNP/star-allele identifier	Exclude unless rsID/star-allele normalization is added as a separate module
+UNSUP-0014	CYTOPLASMIC MISLOCALIZATION	CDKN1B	U05	Protein state, localization, isoform, or expression assay term	Exclude from variant hierarchy unless biomarker-state ontology is added
+UNSUP-0015	Loss	MRE11	U06	Ambiguous loss/truncation ontology term	Requires ontology decision before inclusion
+UNSUP-0016	T172 PHOSPHORYLATION	PRKAA2	U05	Protein state, localization, isoform, or expression assay term	Exclude from variant hierarchy unless biomarker-state ontology is added
+UNSUP-0017	PHOSPHORYLATION	EIF4EBP1	U05	Protein state, localization, isoform, or expression assay term	Exclude from variant hierarchy unless biomarker-state ontology is added
+UNSUP-0018	Y1092 PHOSPHORYLATION	EGFR	U05	Protein state, localization, isoform, or expression assay term	Exclude from variant hierarchy unless biomarker-state ontology is added
+UNSUP-0019	PHOSPHORYLATION	RPS6	U05	Protein state, localization, isoform, or expression assay term	Exclude from variant hierarchy unless biomarker-state ontology is added
+UNSUP-0020	SERUM LEVELS	ERBB2	U01	Non-variant biomarker or phenotype	Describe in exclusion taxonomy; do not include in normalization gold standard
+UNSUP-0021	RS2736100	TERT	U02	Pharmacogenomic/SNP/star-allele identifier	Exclude unless rsID/star-allele normalization is added as a separate module
+UNSUP-0022	3' UTR Polymorphism	HIF1A	U10	Other unsupported or ambiguous expression	Manual triage needed before deciding challenge-set inclusion
+UNSUP-0023	Loss	VHL	U06	Ambiguous loss/truncation ontology term	Requires ontology decision before inclusion
+UNSUP-0024	RS461155	ETS2	U02	Pharmacogenomic/SNP/star-allele identifier	Exclude unless rsID/star-allele normalization is added as a separate module
+UNSUP-0025	RS3733542	KIT	U02	Pharmacogenomic/SNP/star-allele identifier	Exclude unless rsID/star-allele normalization is added as a separate module
+UNSUP-0026	Loss	STK11	U06	Ambiguous loss/truncation ontology term	Requires ontology decision before inclusion
+UNSUP-0027	SERUM LEVELS	MMP2	U01	Non-variant biomarker or phenotype	Describe in exclusion taxonomy; do not include in normalization gold standard
+UNSUP-0028	SERUM LEVELS	MMP9	U01	Non-variant biomarker or phenotype	Describe in exclusion taxonomy; do not include in normalization gold standard
+UNSUP-0029	SNP309	MDM2	U02	Pharmacogenomic/SNP/star-allele identifier	Exclude unless rsID/star-allele normalization is added as a separate module
+UNSUP-0030	e20::e20	EML4::ALK	U08	Complex fusion/transcript/cytogenetic expression	Needs explicit fusion/transcript representation before inclusion
+UNSUP-0031	e2::e20	EML4::ALK	U08	Complex fusion/transcript/cytogenetic expression	Needs explicit fusion/transcript representation before inclusion
+UNSUP-0032	e6::e20	EML4::ALK	U08	Complex fusion/transcript/cytogenetic expression	Needs explicit fusion/transcript representation before inclusion
+UNSUP-0033	RS557806	PPP1R15A	U02	Pharmacogenomic/SNP/star-allele identifier	Exclude unless rsID/star-allele normalization is added as a separate module
+UNSUP-0034	Loss	CDKN2A	U06	Ambiguous loss/truncation ontology term	Requires ontology decision before inclusion
+UNSUP-0035	Loss	CDKN2B	U06	Ambiguous loss/truncation ontology term	Requires ontology decision before inclusion
+UNSUP-0036	LOSS	SMAD4	U06	Ambiguous loss/truncation ontology term	Requires ontology decision before inclusion
+UNSUP-0037	c.1641+1dup	JAK2	U03	Nucleotide-level HGVS or intronic cDNA notation	Exclude from protein-centric gold standard unless c.HGVS support is in scope
+UNSUP-0038	PHOSPHORYLATION	RB1	U05	Protein state, localization, isoform, or expression assay term	Exclude from variant hierarchy unless biomarker-state ontology is added
+UNSUP-0039	RS3814960	CDKN2A	U02	Pharmacogenomic/SNP/star-allele identifier	Exclude unless rsID/star-allele normalization is added as a separate module
+UNSUP-0040	RS34886328	MDM2	U02	Pharmacogenomic/SNP/star-allele identifier	Exclude unless rsID/star-allele normalization is added as a separate module
+UNSUP-0041	RS2305035	CBLB	U02	Pharmacogenomic/SNP/star-allele identifier	Exclude unless rsID/star-allele normalization is added as a separate module
+UNSUP-0042	Loss	SOX10	U06	Ambiguous loss/truncation ontology term	Requires ontology decision before inclusion
+UNSUP-0043	Loss	NF2	U06	Ambiguous loss/truncation ontology term	Requires ontology decision before inclusion
+UNSUP-0044	Loss	NF1	U06	Ambiguous loss/truncation ontology term	Requires ontology decision before inclusion
+UNSUP-0045	RS3184504	SH2B3	U02	Pharmacogenomic/SNP/star-allele identifier	Exclude unless rsID/star-allele normalization is added as a separate module
+UNSUP-0046	rs681673	GADD45A	U02	Pharmacogenomic/SNP/star-allele identifier	Exclude unless rsID/star-allele normalization is added as a separate module
+UNSUP-0047	UGT1A1*28	UGT1A1	U02	Pharmacogenomic/SNP/star-allele identifier	Exclude unless rsID/star-allele normalization is added as a separate module
+UNSUP-0048	c.790+1G>A	MLH1	U03	Nucleotide-level HGVS or intronic cDNA notation	Exclude from protein-centric gold standard unless c.HGVS support is in scope
+UNSUP-0049	UGT1A1*60	UGT1A1	U02	Pharmacogenomic/SNP/star-allele identifier	Exclude unless rsID/star-allele normalization is added as a separate module
+UNSUP-0050	DPYD*2A HOMOZYGOSITY	DPYD	U02	Pharmacogenomic/SNP/star-allele identifier	Exclude unless rsID/star-allele normalization is added as a separate module
+UNSUP-0051	DPYD*13 HOMOZYGOSITY	DPYD	U02	Pharmacogenomic/SNP/star-allele identifier	Exclude unless rsID/star-allele normalization is added as a separate module
+UNSUP-0052	RS67376798 HOMOZYGOSITY	DPYD	U02	Pharmacogenomic/SNP/star-allele identifier	Exclude unless rsID/star-allele normalization is added as a separate module
+UNSUP-0053	RS4149056	SLCO1B1	U02	Pharmacogenomic/SNP/star-allele identifier	Exclude unless rsID/star-allele normalization is added as a separate module
+UNSUP-0054	RS34743033	TYMS	U02	Pharmacogenomic/SNP/star-allele identifier	Exclude unless rsID/star-allele normalization is added as a separate module
+UNSUP-0055	c.1100delC	CHEK2	U03	Nucleotide-level HGVS or intronic cDNA notation	Exclude from protein-centric gold standard unless c.HGVS support is in scope
+UNSUP-0056	IVS2+1G>A	CHEK2	U03	Nucleotide-level HGVS or intronic cDNA notation	Exclude from protein-centric gold standard unless c.HGVS support is in scope
+UNSUP-0057	E55= (c.165G>A		U03	Nucleotide-level HGVS or intronic cDNA notation	Exclude from protein-centric gold standard unless c.HGVS support is in scope
+UNSUP-0058	Loss	MSH2	U06	Ambiguous loss/truncation ontology term	Requires ontology decision before inclusion
+UNSUP-0059	LOSS	MSH6	U06	Ambiguous loss/truncation ontology term	Requires ontology decision before inclusion
+UNSUP-0060	Alternative Transcript (ATI		U05	Protein state, localization, isoform, or expression assay term	Exclude from variant hierarchy unless biomarker-state ontology is added
+UNSUP-0061	c.393T>C	GNAS	U03	Nucleotide-level HGVS or intronic cDNA notation	Exclude from protein-centric gold standard unless c.HGVS support is in scope
+UNSUP-0062	D842_H845delDIMH	PDGFRA	U07	Potentially standardizable cancer variant form not yet parsed	Good candidate for future parser extension and a later challenge-set stratum
+UNSUP-0063	Loss	ARID1A	U06	Ambiguous loss/truncation ontology term	Requires ontology decision before inclusion
+UNSUP-0064	P551_E554delPMYE	KIT	U07	Potentially standardizable cancer variant form not yet parsed	Good candidate for future parser extension and a later challenge-set stratum
+UNSUP-0065	EGFRVIII	EGFR	U07	Potentially standardizable cancer variant form not yet parsed	Good candidate for future parser extension and a later challenge-set stratum
+UNSUP-0066	A767_V769dupASV	EGFR	U07	Potentially standardizable cancer variant form not yet parsed	Good candidate for future parser extension and a later challenge-set stratum
+UNSUP-0067	P154= (c.462A>C		U03	Nucleotide-level HGVS or intronic cDNA notation	Exclude from protein-centric gold standard unless c.HGVS support is in scope
+UNSUP-0068	R161= (c.481C>A		U03	Nucleotide-level HGVS or intronic cDNA notation	Exclude from protein-centric gold standard unless c.HGVS support is in scope
+UNSUP-0069	R177ins (c.531insCTGAGAGTAAAGCCTGAA		U03	Nucleotide-level HGVS or intronic cDNA notation	Exclude from protein-centric gold standard unless c.HGVS support is in scope
+UNSUP-0070	ALTERNATIVE TRANSCRIPT (ATI		U05	Protein state, localization, isoform, or expression assay term	Exclude from variant hierarchy unless biomarker-state ontology is added
+UNSUP-0071	Loss	ASS1	U06	Ambiguous loss/truncation ontology term	Requires ontology decision before inclusion
+UNSUP-0072	G104= (c.312C>G		U03	Nucleotide-level HGVS or intronic cDNA notation	Exclude from protein-centric gold standard unless c.HGVS support is in scope
+UNSUP-0073	c.128-?_250+?	VHL	U03	Nucleotide-level HGVS or intronic cDNA notation	Exclude from protein-centric gold standard unless c.HGVS support is in scope
+UNSUP-0074	Non-V600	BRAF	U07	Potentially standardizable cancer variant form not yet parsed	Good candidate for future parser extension and a later challenge-set stratum
+UNSUP-0075	p.S193_C196dupSTSC (c.577_588dupAGCACCAGCTGC		U03	Nucleotide-level HGVS or intronic cDNA notation	Exclude from protein-centric gold standard unless c.HGVS support is in scope
+UNSUP-0076	c.341-59_341-14del	VHL	U03	Nucleotide-level HGVS or intronic cDNA notation	Exclude from protein-centric gold standard unless c.HGVS support is in scope
+UNSUP-0077	Loss	SMARCA4	U06	Ambiguous loss/truncation ontology term	Requires ontology decision before inclusion
+UNSUP-0078	rs1801270	CDKN1A	U02	Pharmacogenomic/SNP/star-allele identifier	Exclude unless rsID/star-allele normalization is added as a separate module
+UNSUP-0079	V600_K601delVKinsE	BRAF	U07	Potentially standardizable cancer variant form not yet parsed	Good candidate for future parser extension and a later challenge-set stratum
+UNSUP-0080	c.151-1G>C	CDKN2A	U03	Nucleotide-level HGVS or intronic cDNA notation	Exclude from protein-centric gold standard unless c.HGVS support is in scope
+UNSUP-0081	106insR (c.316insGCC		U03	Nucleotide-level HGVS or intronic cDNA notation	Exclude from protein-centric gold standard unless c.HGVS support is in scope
+UNSUP-0082	R474C c.1420C>T	CHEK2	U03	Nucleotide-level HGVS or intronic cDNA notation	Exclude from protein-centric gold standard unless c.HGVS support is in scope
+UNSUP-0083	c.1396C>T	NF2	U03	Nucleotide-level HGVS or intronic cDNA notation	Exclude from protein-centric gold standard unless c.HGVS support is in scope
+UNSUP-0084	Double Ph	ABL1	U08	Complex fusion/transcript/cytogenetic expression	Needs explicit fusion/transcript representation before inclusion
+UNSUP-0085	c.902-1G>T	ATM	U03	Nucleotide-level HGVS or intronic cDNA notation	Exclude from protein-centric gold standard unless c.HGVS support is in scope
+UNSUP-0086	c.7089+1del	ATM	U03	Nucleotide-level HGVS or intronic cDNA notation	Exclude from protein-centric gold standard unless c.HGVS support is in scope
+UNSUP-0087	c.7515+1_2del	ATM	U03	Nucleotide-level HGVS or intronic cDNA notation	Exclude from protein-centric gold standard unless c.HGVS support is in scope
+UNSUP-0088	Loss	SMARCB1	U06	Ambiguous loss/truncation ontology term	Requires ontology decision before inclusion
+UNSUP-0089	S473 Phosphorylation	AKT1	U05	Protein state, localization, isoform, or expression assay term	Exclude from variant hierarchy unless biomarker-state ontology is added
+UNSUP-0090	rs1059234	CDKN1A	U02	Pharmacogenomic/SNP/star-allele identifier	Exclude unless rsID/star-allele normalization is added as a separate module
+UNSUP-0091	CD44v6	CD44	U05	Protein state, localization, isoform, or expression assay term	Exclude from variant hierarchy unless biomarker-state ontology is added
+UNSUP-0092	c.1285dupC	FLCN	U03	Nucleotide-level HGVS or intronic cDNA notation	Exclude from protein-centric gold standard unless c.HGVS support is in scope
+UNSUP-0093	H1047L or H1047R	PIK3CA	U10	Other unsupported or ambiguous expression	Manual triage needed before deciding challenge-set inclusion
+UNSUP-0094	Loss	KMT2C	U06	Ambiguous loss/truncation ontology term	Requires ontology decision before inclusion
+UNSUP-0095	Loss	TP53	U06	Ambiguous loss/truncation ontology term	Requires ontology decision before inclusion
+UNSUP-0096	Loss	MLH1	U06	Ambiguous loss/truncation ontology term	Requires ontology decision before inclusion
+UNSUP-0097	Truncation	MYB	U06	Ambiguous loss/truncation ontology term	Requires ontology decision before inclusion
+UNSUP-0098	Positive	Kataegis	U01	Non-variant biomarker or phenotype	Describe in exclusion taxonomy; do not include in normalization gold standard
+UNSUP-0099	High	CK	U01	Non-variant biomarker or phenotype	Describe in exclusion taxonomy; do not include in normalization gold standard
+UNSUP-0100	Loss	IFNGR1	U06	Ambiguous loss/truncation ontology term	Requires ontology decision before inclusion
+UNSUP-0101	ST-EPN-ZFTA	Methylation signature	U01	Non-variant biomarker or phenotype	Describe in exclusion taxonomy; do not include in normalization gold standard
+UNSUP-0102	Microsatellite Instability-High	Other Biomarkers	U01	Non-variant biomarker or phenotype	Describe in exclusion taxonomy; do not include in normalization gold standard
+UNSUP-0103	Tumor Mutational Burden-High	Other Biomarkers	U01	Non-variant biomarker or phenotype	Describe in exclusion taxonomy; do not include in normalization gold standard
+UNSUP-0104	FLT3_tyrosine_kinase_domain		U07	Potentially standardizable cancer variant form not yet parsed	Good candidate for future parser extension and a later challenge-set stratum
+UNSUP-0105	1p/19q_deletion		U04	Cytoband or chromosomal alteration	Report as unsupported coordinate scale; not part of variant-name gold standard
+UNSUP-0106	10p12.3_rearrangement		U04	Cytoband or chromosomal alteration	Report as unsupported coordinate scale; not part of variant-name gold standard
+UNSUP-0107	11p15_rearrangement		U04	Cytoband or chromosomal alteration	Report as unsupported coordinate scale; not part of variant-name gold standard
+UNSUP-0108	12p13.2_rearrangement		U04	Cytoband or chromosomal alteration	Report as unsupported coordinate scale; not part of variant-name gold standard
+UNSUP-0109	12p13.2_deletion		U04	Cytoband or chromosomal alteration	Report as unsupported coordinate scale; not part of variant-name gold standard
+UNSUP-0110	5q31_deletion		U04	Cytoband or chromosomal alteration	Report as unsupported coordinate scale; not part of variant-name gold standard
+UNSUP-0111	FLT3-ITD_fusion		U10	Other unsupported or ambiguous expression	Manual triage needed before deciding challenge-set inclusion
+UNSUP-0112	11q_deletion		U04	Cytoband or chromosomal alteration	Report as unsupported coordinate scale; not part of variant-name gold standard
+UNSUP-0113	17p_deletion		U04	Cytoband or chromosomal alteration	Report as unsupported coordinate scale; not part of variant-name gold standard
+UNSUP-0114	1q21_amplification		U04	Cytoband or chromosomal alteration	Report as unsupported coordinate scale; not part of variant-name gold standard
+UNSUP-0115	4q12_amplification		U04	Cytoband or chromosomal alteration	Report as unsupported coordinate scale; not part of variant-name gold standard
+UNSUP-0116	CSFR1_unspecified		U09	Invalid, obsolete, or non-human gene/feature symbol	Treat as source-data quality issue
+UNSUP-0117	ERCC_unspecified		U09	Invalid, obsolete, or non-human gene/feature symbol	Treat as source-data quality issue
+UNSUP-0118	XRCC_unspecified		U09	Invalid, obsolete, or non-human gene/feature symbol	Treat as source-data quality issue
+UNSUP-0119	BAP1_Exon3_fs		U07	Potentially standardizable cancer variant form not yet parsed	Good candidate for future parser extension and a later challenge-set stratum
+UNSUP-0120	GD2_unspecified		U09	Invalid, obsolete, or non-human gene/feature symbol	Treat as source-data quality issue
+UNSUP-0121	AR_ligand_binding_domain		U07	Potentially standardizable cancer variant form not yet parsed	Good candidate for future parser extension and a later challenge-set stratum
+UNSUP-0122	BCR-ABL1_unspecified		U08	Complex fusion/transcript/cytogenetic expression	Needs explicit fusion/transcript representation before inclusion
+UNSUP-0123	NGS1_unspecified		U09	Invalid, obsolete, or non-human gene/feature symbol	Treat as source-data quality issue
+UNSUP-0124	BRACA2_unspecified		U09	Invalid, obsolete, or non-human gene/feature symbol	Treat as source-data quality issue
+UNSUP-0125	BCR-ABL ?:? COSF1783 and IKZF1_unspecified		U08	Complex fusion/transcript/cytogenetic expression	Needs explicit fusion/transcript representation before inclusion
+UNSUP-0126	NTRK_unspecified		U10	Other unsupported or ambiguous expression	Manual triage needed before deciding challenge-set inclusion
+UNSUP-0127	RAS1_unspecified		U09	Invalid, obsolete, or non-human gene/feature symbol	Treat as source-data quality issue
+UNSUP-0128	CXCR4_cterm_del		U07	Potentially standardizable cancer variant form not yet parsed	Good candidate for future parser extension and a later challenge-set stratum
+UNSUP-0129	EGFR_Exon_19ins		U07	Potentially standardizable cancer variant form not yet parsed	Good candidate for future parser extension and a later challenge-set stratum
+UNSUP-0130	EGFR_Exon_20ins		U07	Potentially standardizable cancer variant form not yet parsed	Good candidate for future parser extension and a later challenge-set stratum

@@ -1,0 +1,101 @@
+id	stratum_id	input_text	expected_variant_name	predicted_variant_name	status	is_correct	error
+NORM-0001	N01	NTRK3 G623R	NTRK3 G623R	NTRK3 G623R	correct	1	
+NORM-0002	N01	ERBB2_G776delinsVC	ERBB2 G776delinsVC	ERBB2 G776delinsVC	correct	1	
+NORM-0003	N01	EGFR P772_V774insPHV	EGFR P772_V774insPHV	EGFR P772_V774insPHV	correct	1	
+NORM-0004	N01	ALK T1151dup	ALK T1151dup	ALK T1151dup	correct	1	
+NORM-0005	N01	EGFR A763_Y764insFQEA	EGFR A763_Y764insFQEA	EGFR A763_Y764insFQEA	correct	1	
+NORM-0006	N01	BRAF A598V	BRAF A598V	BRAF A598V	correct	1	
+NORM-0007	N01	MLH1 K618DEL	MLH1 K618del	MLH1 K618del	correct	1	
+NORM-0008	N01	KIT_A502_Y503dup	KIT A502_Y503dup	KIT A502_Y503dup	correct	1	
+NORM-0009	N01	KIT K558_V559del	KIT K558_V559del	KIT K558_V559del	correct	1	
+NORM-0010	N01	EGFR S768_D770dup	EGFR S768_D770dup	EGFR S768_D770dup	correct	1	
+NORM-0011	N02	BRAF V600	BRAF V600X	BRAF V600X	correct	1	
+NORM-0012	N02	ALK_L1196	ALK L1196X	ALK L1196X	correct	1	
+NORM-0013	N02	MPL W515	MPL W515X	MPL W515X	correct	1	
+NORM-0014	N02	DNMT3A R882	DNMT3A R882X	DNMT3A R882X	correct	1	
+NORM-0015	N02	EGFR (S720)	EGFR S720X	EGFR S720X	correct	1	
+NORM-0016	N02	NRAS Q61	NRAS Q61X	NRAS Q61X	correct	1	
+NORM-0017	N02	BRAF_N581	BRAF N581X	BRAF N581X	correct	1	
+NORM-0018	N02	BTK_C481	BTK C481X	BTK C481X	correct	1	
+NORM-0019	N02	IDH2_R140	IDH2 R140X	IDH2 R140X	correct	1	
+NORM-0020	N02	KRAS G12	KRAS G12X	KRAS G12X	correct	1	
+NORM-0021	N03	VHL Y175* (c.525delC)	VHL Y175*	VHL Y175*	correct	1	
+NORM-0022	N03	VHL K196* (c.586A>T)	VHL K196*	VHL K196*	correct	1	
+NORM-0023	N03	VHL Q164* (c.490C>T)	VHL Q164*	VHL Q164*	correct	1	
+NORM-0024	N03	VHL P102fs (c.305delC)	VHL P102fs	VHL P102fs	correct	1	
+NORM-0025	N03	VHL A56fs (c.164_165insA)	VHL A56fs	VHL A56fs	correct	1	
+NORM-0026	N03	VHL D143fs (c.430delG)	VHL D143fs	VHL D143fs	correct	1	
+NORM-0027	N03	VHL E160fs (c.479_480delAG)	VHL E160fs	VHL E160fs	correct	1	
+NORM-0028	N03	TP53 Truncating Mutation	TP53 truncating mutation	TP53 truncating mutation	correct	1	
+NORM-0029	N03	PTCH1 Truncating Mutations	PTCH1 truncating mutation	PTCH1 truncating mutation	correct	1	
+NORM-0030	N03	BRCA2 TRUNCATING MUTATION	BRCA2 truncating mutation	BRCA2 truncating mutation	correct	1	
+NORM-0031	N04	CALR EXON 9 FRAMESHIFT	CALR exon 9 frameshift mutation	CALR exon 9 frameshift mutation	correct	1	
+NORM-0032	N04	VHL Exon 3 Deletion	VHL exon 3 deletion	VHL exon 3 deletion	correct	1	
+NORM-0033	N04	EGFR exon 19 insertions	EGFR exon 19 in-frame insertion	EGFR exon 19 in-frame insertion	correct	1	
+NORM-0034	N04	KIT Exon 13 Mutation	KIT exon 13 mutation	KIT exon 13 mutation	correct	1	
+NORM-0035	N04	EGFR Exon 20 in-frame insertions	EGFR exon 20 in-frame insertion	EGFR exon 20 in-frame insertion	correct	1	
+NORM-0036	N04	PIK3CA Exon 21 Mutation	PIK3CA exon 21 mutation	PIK3CA exon 21 mutation	correct	1	
+NORM-0037	N04	EGFRvIII	EGFR exon 2-7 deletion	EGFR exon 2-7 deletion	correct	1	
+NORM-0038	N04	EGFR Exon 19 deletion	EGFR exon 19 in-frame deletion	EGFR exon 19 in-frame deletion	correct	1	
+NORM-0039	N04	ERBB2 Exon 20 in-frame insertions	ERBB2 exon 20 in-frame insertion	ERBB2 exon 20 in-frame insertion	correct	1	
+NORM-0040	N04	EGFR_Exon19del	EGFR exon 19 in-frame deletion	EGFR exon 19 in-frame deletion	correct	1	
+NORM-0041	N05	DPYD splice donor variant	DPYD splice donor variant	DPYD splice donor variant	correct	1	
+NORM-0042	N05	VHL Splice Site (c.464-2A>T)	VHL splice site variant	VHL splice site variant	correct	1	
+NORM-0043	N05	VHL Splice Region (c.340+5G>C)	VHL splice region variant	VHL splice region variant	correct	1	
+NORM-0044	N05	NOTCH1 2245_2536 splice acceptor variant	NOTCH1 2245_2536 splice acceptor variant	NOTCH1 2245_2536 splice acceptor variant	correct	1	
+NORM-0045	N05	MET exon 14 splice variant	MET exon 14 splice variant	MET exon 14 splice variant	correct	1	
+NORM-0046	N05	MET exon 14 skipping mutations	MET exon 14 skipping mutation	MET exon 14 skipping mutation	correct	1	
+NORM-0047	N05	NOTCH1 2245_2536 splice donor variant	NOTCH1 2245_2536 splice donor variant	NOTCH1 2245_2536 splice donor variant	correct	1	
+NORM-0048	N05	TPMT splice acceptor variant	TPMT splice acceptor variant	TPMT splice acceptor variant	correct	1	
+NORM-0049	N05	MET Splice Site (c.3028G>A)	MET splice site variant	MET splice site variant	correct	1	
+NORM-0050	N05	JAK2 splice site variant	JAK2 splice site variant	JAK2 splice site variant	correct	1	
+NORM-0051	N06	KMT2A KMT2A-MLLT3 Fusion	KMT2A::MLLT3 fusion	KMT2A fusion	incorrect	0	
+NORM-0052	N06	MYBL1 Rearrangement	MYBL1 rearrangement	MYBL1 rearrangement	correct	1	
+NORM-0053	N06	ALK fusions	ALK fusion	ALK fusion	correct	1	
+NORM-0054	N06	YAP1::v Fusion	YAP1::v fusion	YAP1::v fusion	correct	1	
+NORM-0055	N06	MYB Rearrangement	MYB rearrangement	MYB rearrangement	correct	1	
+NORM-0056	N06	MN1 Rearrangement	MN1 rearrangement	MN1 rearrangement	correct	1	
+NORM-0057	N06	EWSR1::CREB3L1 Fusion	EWSR1::CREB3L1 fusion	EWSR1::CREB3L1 fusion	correct	1	
+NORM-0058	N06	BRAF intron 10 rearrangement	BRAF intron 10 rearrangement	BRAF rearrangement	incorrect	0	
+NORM-0059	N06	BCR::JAK2 Fusion	BCR::JAK2 fusion	BCR::JAK2 fusion	correct	1	
+NORM-0060	N06	ETV6::ABL1 Fusion	ETV6::ABL1 fusion	ETV6::ABL1 fusion	correct	1	
+NORM-0061	N07	EGFR Copy Number Variation	EGFR copy number change	EGFR copy number change	correct	1	
+NORM-0062	N07	RICTOR amplification	RICTOR amplification	RICTOR amplification	correct	1	
+NORM-0063	N07	FLT3 Amplification	FLT3 amplification	FLT3 amplification	correct	1	
+NORM-0064	N07	TP53 Deletion	TP53 copy number deletion	TP53 copy number deletion	correct	1	
+NORM-0065	N07	ERBB2 amplification	ERBB2 amplification	ERBB2 amplification	correct	1	
+NORM-0066	N07	FGFR1 copy number gain	FGFR1 copy number gain	FGFR1 copy number gain	correct	1	
+NORM-0067	N07	CDKN2A copy number deletion	CDKN2A copy number deletion	CDKN2A copy number deletion	correct	1	
+NORM-0068	N07	RB1 homozygous deletion	RB1 copy number deletion	RB1 copy number deletion	correct	1	
+NORM-0069	N07	BRCA1 copy number loss	BRCA1 copy number loss	BRCA1 copy number loss	correct	1	
+NORM-0070	N07	SMAD4 deep deletion	SMAD4 copy number deletion	SMAD4 copy number deletion	correct	1	
+NORM-0071	N08	ERBB3 absent	ERBB3 absent	ERBB3 absent	correct	1	
+NORM-0072	N08	KLLN methylation	KLLN methylation	KLLN methylation	correct	1	
+NORM-0073	N08	MIR218-1 underexpression	MIR218-1 underexpression	MIR218-1 underexpression	correct	1	
+NORM-0074	N08	CCND2 PROMOTER DEMETHYLATION	CCND2 promoter demethylation	CCND2 demethylation	incorrect	0	
+NORM-0075	N08	RB1 EXPRESSION	RB1 expression	RB1 expression	correct	1	
+NORM-0076	N08	NAPRT Promoter Hypermethylation	NAPRT promoter hypermethylation	NAPRT hypermethylation	incorrect	0	
+NORM-0077	N08	CASP8 Overexpression	CASP8 overexpression	CASP8 overexpression	correct	1	
+NORM-0078	N08	MLH1_methylation	MLH1 methylation	MLH1 methylation	correct	1	
+NORM-0079	N08	AREG Expression	AREG expression	AREG expression	correct	1	
+NORM-0080	N08	MGMT Hypermethylation	MGMT hypermethylation	MGMT hypermethylation	correct	1	
+NORM-0081	N09	SDHC inconclusive mutation	SDHC inconclusive mutation	SDHC inconclusive mutation	correct	1	
+NORM-0082	N09	ESR1 oncogenic mutation	ESR1 oncogenic mutation	ESR1 oncogenic mutation	correct	1	
+NORM-0083	N09	EPOR gain of function	EPOR gain-of-function	EPOR gain-of-function	correct	1	
+NORM-0084	N09	NOTCH4 loss of function	NOTCH4 loss-of-function	NOTCH4 loss-of-function	correct	1	
+NORM-0085	N09	RUNX1 switch-of-function	RUNX1 switch-of-function	RUNX1 switch-of-function	correct	1	
+NORM-0086	N09	GATA2 gain-of-function	GATA2 gain-of-function	GATA2 gain-of-function	correct	1	
+NORM-0087	N09	RARA inconclusive mutation	RARA inconclusive mutation	RARA inconclusive mutation	correct	1	
+NORM-0088	N09	MST1 loss-of-function	MST1 loss-of-function	MST1 loss-of-function	correct	1	
+NORM-0089	N09	KLF2 oncogenic mutation	KLF2 oncogenic mutation	KLF2 oncogenic mutation	correct	1	
+NORM-0090	N09	IDH2 switch-of-function	IDH2 switch-of-function	IDH2 switch-of-function	correct	1	
+NORM-0091	N10	CDKN1A_unspecified	CDKN1A mutation	CDKN1A mutation	correct	1	
+NORM-0092	N10	MTOR Mutation	MTOR mutation	MTOR mutation	correct	1	
+NORM-0093	N10	TP53 ALTERATION	TP53 mutation	TP53 mutation	correct	1	
+NORM-0094	N10	ATRX_unspecified	ATRX mutation	ATRX mutation	correct	1	
+NORM-0095	N10	ATM Mutation	ATM mutation	ATM mutation	correct	1	
+NORM-0096	N10	CXCR4 variant	CXCR4 mutation	CXCR4 mutation	correct	1	
+NORM-0097	N10	BRCA1 Mutation	BRCA1 mutation	BRCA1 mutation	correct	1	
+NORM-0098	N10	HAVCR2_unspecified	HAVCR2 mutation	HAVCR2 mutation	correct	1	
+NORM-0099	N10	HRAS Mutation	HRAS mutation	HRAS mutation	correct	1	
+NORM-0100	N10	MAP2K2_unspecified	MAP2K2 mutation	MAP2K2 mutation	correct	1	

@@ -1,0 +1,10 @@
+#fusions: fusion
+#deletion: deletion
+#amplification: amplification
+#oncogenic mutations: oncogenic mutation
+#promoter mutations: promoter mutation
+#truncating mutations: truncating
+#kinase domain duplication: kinase domain duplication
+#internal tandem duplication: internal tandem duplication
+#wildtype: wildtype
+L1750Afs25: L1750Afs*25

@@ -1,0 +1,55 @@
+3_prime_UTR_truncation: Sequence Variant
+3_prime_UTR_variant: Sequence Variant
+5_prime_UTR_exon_variant: Sequence Variant
+5_prime_UTR_variant: Sequence Variant
+amino_acid_deletion: Sequence Variant
+amino_acid_substitution: Sequence Variant
+coding_sequence_variant: Sequence Variant
+coding_transcript_intron_variant: Sequence Variant
+coding_transcript_variant: Sequence Variant
+conservative_inframe_deletion: Sequence Variant
+conservative_inframe_insertion: Sequence Variant
+delins: Sequence Variant
+direct_tandem_duplication: Sequence Variant
+disruptive_inframe_deletion: Sequence Variant
+disruptive_inframe_insertion: Sequence Variant
+exon_variant: Sequence Variant
+feature_truncation: Sequence Variant
+frameshift_elongation: Sequence Variant
+frameshift_truncation: Sequence Variant
+frameshift_variant: Sequence Variant
+inframe_deletion: Sequence Variant
+inframe_indel: Sequence Variant
+inframe_insertion: Sequence Variant
+inframe_variant: Sequence Variant
+intron_variant: Sequence Variant
+microsatellite: Sequence Variant
+minus_1_frameshift_variant: Sequence Variant
+minus_2_frameshift_variant: Sequence Variant
+missense_variant: Sequence Variant
+non_conservative_missense_variant: Sequence Variant
+plus_1_frameshift_variant: Sequence Variant
+polymorphic_sequence_variant: Sequence Variant
+protein_altering_variant: Sequence Variant
+regulatory_region_variant: Sequence Variant
+short_tandem_repeat_variation: Sequence Variant
+splice_acceptor_variant: Sequence Variant
+splice_donor_variant: Sequence Variant
+splicing_variant: Sequence Variant
+start_lost: Sequence Variant
+stop_gained: Sequence Variant
+stop_lost: Sequence Variant
+synonymous_variant: Sequence Variant
+tandem_duplication: Sequence Variant
+transcript_variant: Sequence Variant
+transcription_variant: Sequence Variant
+wild_type: Sequence Variant
+copy_number_change: Copy Number Variant
+exon_loss_variant: Copy Number Variant
+loss_of_heterozygosity: Copy Number Variant
+transcript_ablation: Copy Number Variant
+transcript_amplification: Copy Number Variant
+gene_fusion: Structural Variant
+transcript_fusion: Structural Variant
+transcript_regulatory_region_fusion: Structural Variant
+gene_silenced_by_DNA_methylation: Epigenetic Variant

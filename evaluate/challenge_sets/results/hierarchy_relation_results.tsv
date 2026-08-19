@@ -1,0 +1,106 @@
+id	stratum_id	parent_variant	child_variant	expected_contains	predicted_contains	is_correct	parent_resolved	child_resolved	parent_resolution_method	child_resolution_method	matched_by_graph	matched_by_logic
+HIER-0001	H01	BRIP1 mutation	BRIP1 T48Qfs*7	1	1	1	BRIP1 mutation	BRIP1 T48Qfs*7	parsed	parsed	1	0
+HIER-0002	H01	ERRFI1 mutation	ERRFI1 E384*	1	1	1	ERRFI1 mutation	ERRFI1 E384*	parsed	parsed	1	0
+HIER-0003	H01	BRCA2 mutation	BRCA2 I2495T	1	1	1	BRCA2 mutation	BRCA2 I2495T	parsed	parsed	1	0
+HIER-0004	H01	KIT mutation	KIT A502_Y503dup	1	1	1	KIT mutation	KIT A502_Y503dup	parsed	parsed	1	0
+HIER-0005	H01	EGFR mutation	EGFR V774_C775insAV	1	1	1	EGFR mutation	EGFR V774_C775insAV	parsed	parsed	1	0
+HIER-0006	H02	ALK L1196X	ALK L1196M	1	1	1	ALK L1196X	ALK L1196M	parsed	parsed	1	0
+HIER-0007	H02	PIK3CA H1047X	PIK3CA H1047L	1	1	1	PIK3CA H1047X	PIK3CA H1047L	parsed	parsed	1	0
+HIER-0008	H02	HRAS Q61X	HRAS Q61R	1	1	1	HRAS Q61X	HRAS Q61R	parsed	parsed	1	0
+HIER-0009	H02	RET Y791 mutation	RET Y791F	1	0	0	RET amino acid 791 mutation	RET Y791F	parsed	parsed	0	0
+HIER-0010	H02	ERBB2 V777X	ERBB2 V777A	1	1	1	ERBB2 V777X	ERBB2 V777A	parsed	parsed	1	0
+HIER-0011	H03	STAT3 exon 20-21 mutation	STAT3 E616del	1	1	1	STAT3 exon 20-21 mutation	STAT3 E616del	parsed	parsed	1	0
+HIER-0012	H03	TP53 exon 7 mutation	TP53 L257Rfs*88	1	1	1	TP53 exon 7 mutation	TP53 L257Rfs*88	parsed	parsed	1	0
+HIER-0013	H03	SF3B1 exon 14-16 mutation	SF3B1 K700E	1	1	1	SF3B1 exon 14-16 mutation	SF3B1 K700E	parsed	parsed	1	0
+HIER-0014	H03	PDGFRA exon 18 mutation	PDGFRA D842_I843delinsIM	1	1	1	PDGFRA exon 18 mutation	PDGFRA D842_I843delinsIM	parsed	parsed	1	0
+HIER-0015	H03	MAP2K1 exon 3 mutation	MAP2K1 H100_I103delinsPL	1	1	1	MAP2K1 exon 3 mutation	MAP2K1 H100_I103delinsPL	parsed	parsed	1	0
+HIER-0016	H04	ALK mutation	ALK I1171X	1	1	1	ALK mutation	ALK I1171X	parsed	parsed	1	0
+HIER-0017	H04	KRAS mutation	KRAS G12 mutation	1	1	1	KRAS mutation	KRAS G12 mutation	parsed	parsed	1	0
+HIER-0018	H04	ESR1 mutation	ESR1 D538X	1	1	1	ESR1 mutation	ESR1 D538X	parsed	parsed	1	0
+HIER-0019	H04	RET mutation	RET E768 mutation	1	0	0	RET mutation	RET amino acid 768 mutation	parsed	parsed	0	0
+HIER-0020	H04	ESR1 mutation	ESR1 E380X	1	1	1	ESR1 mutation	ESR1 E380X	parsed	parsed	1	0
+HIER-0021	H05	DPYD mutation	DPYD splice donor variant	1	1	1	DPYD mutation	DPYD splice donor variant	parsed	parsed	1	0
+HIER-0022	H05	KIT mutation	KIT wild type	1	1	1	KIT mutation	KIT wild type	parsed	parsed	1	0
+HIER-0023	H05	BRAF mutation	BRAF deletion	1	0	0	BRAF mutation	BRAF copy number deletion	parsed	parsed	0	0
+HIER-0024	H05	VHL mutation	VHL splice region variant	1	1	1	VHL mutation	VHL splice region variant	parsed	parsed	1	0
+HIER-0025	H05	BRCA1 mutation	BRCA1 insertion	1	1	1	BRCA1 mutation	BRCA1 insertion	parsed	parsed	1	0
+HIER-0026	H06	PDGFRA mutation	PDGFRA exon 18 missense mutation	1	1	1	PDGFRA mutation	PDGFRA exon 18 missense mutation	parsed	parsed	1	0
+HIER-0027	H06	CALR mutation	CALR exon 9 frameshift mutation	1	1	1	CALR mutation	CALR exon 9 frameshift mutation	parsed	parsed	1	0
+HIER-0028	H06	NOTCH1 mutation	NOTCH1 2245_2536 splice donor variant	1	0	0	NOTCH1 mutation	NOTCH1 2245_2536 splice donor variant	parsed	parsed	0	0
+HIER-0029	H06	MET mutation	MET exon 14 splice variant	1	1	1	MET mutation	MET exon 14 splice variant	parsed	parsed	1	0
+HIER-0030	H06	NOTCH1 mutation	NOTCH1 2245_2536 nonsense mutation	1	0	0	NOTCH1 mutation	NOTCH1 2245_2536 nonsense mutation	parsed	parsed	0	0
+HIER-0031	H07	PDGFRA exon 12-18 mutation	PDGFRA 552_596 mutation	1	1	1	PDGFRA exon 12-18 mutation	PDGFRA 552_596 mutation	parsed	parsed	1	0
+HIER-0032	H07	JAK2 exon 12 mutation	JAK2 exon 12 in-frame insertion	1	1	1	JAK2 exon 12 mutation	JAK2 exon 12 in-frame insertion	parsed	parsed	1	0
+HIER-0033	H07	VHL exon 2-3 in-frame deletion	VHL exon 2 in-frame deletion	1	0	0	VHL exon 2-3 in-frame deletion	VHL exon 2 in-frame deletion	parsed	parsed	0	0
+HIER-0034	H07	JAK2 exon 12 mutation	JAK2 exon 12 in-frame deletion	1	1	1	JAK2 exon 12 mutation	JAK2 exon 12 in-frame deletion	parsed	parsed	1	0
+HIER-0035	H07	MET exon 14 splice variant	MET exon 14 skipping mutation	1	1	1	MET exon 14 splice variant	MET exon 14 skipping mutation	parsed	parsed	1	0
+HIER-0036	H08	JAK2 fusion	BCR::JAK2 fusion	1	0	0	JAK2 fusion	BCR::JAK2 fusion	parsed	parsed	0	0
+HIER-0037	H08	ABL1 fusion	CENPC::ABL1 fusion	1	0	0	ABL1 fusion	CENPC::ABL1 fusion	parsed	parsed	0	0
+HIER-0038	H08	FGFR2 fusion	FGFR2::AHCYL1 fusion	1	0	0	FGFR2 fusion	FGFR2::AHCYL1 fusion	parsed	parsed	0	0
+HIER-0039	H08	FUS fusion	FUS::ERG fusion	1	1	1	FUS fusion	FUS::ERG fusion	parsed	parsed	1	0
+HIER-0040	H08	NUTM1 fusion	BRD4::NUTM1 fusion	1	0	0	NUTM1 fusion	BRD4::NUTM1 fusion	parsed	parsed	0	0
+HIER-0041	H09	ARID1A mutation	ARID1A underexpression	1	1	1	ARID1A mutation	ARID1A underexpression	parsed	parsed	1	0
+HIER-0042	H09	RUNX1 mutation	RUNX1::MECOM fusion	1	0	0	RUNX1 mutation	RUNX1::MECOM fusion	parsed	parsed	0	0
+HIER-0043	H09	CCND2 mutation	CCND2 demethylation	1	1	1	CCND2 mutation	CCND2 demethylation	parsed	parsed	1	0
+HIER-0044	H09	PTCH1 mutation	PTCH1 loh	1	1	1	PTCH1 mutation	PTCH1 loh	parsed	parsed	1	0
+HIER-0045	H09	VHL mutation	VHL exon 1-2 copy number deletion	1	1	1	VHL mutation	VHL exon 1-2 copy number deletion	parsed	parsed	1	0
+HIER-0046	H10	EGFR gain-of-function	EGFR activating mutation	1	0	0	EGFR gain-of-function	EGFR activating mutation	parsed	parsed	0	0
+HIER-0047	H10	NF1 loss-of-function	NF1 inactivating mutation	1	1	1	NF1 loss-of-function	NF1 inactivating mutation	parsed	parsed	1	0
+HIER-0048	H10	BRAF oncogenic mutation	BRAF likely oncogenic mutation	1	0	0	BRAF oncogenic mutation	BRAF likely oncogenic mutation	parsed	parsed	0	0
+HIER-0049	H10	MYCN gain-of-function	MYCN amplification	1	1	1	MYCN gain-of-function	MYCN amplification	parsed	parsed	1	0
+HIER-0050	H10	BRAF gain-of-function	BRAF fusion	1	1	1	BRAF gain-of-function	BRAF fusion	parsed	parsed	1	0
+HIER-0051	H11	EGFR copy number change	EGFR amplification	1	1	1	EGFR copy number change	EGFR amplification	parsed	parsed	1	0
+HIER-0052	H11	MN1 rearrangement	MN1::BEND2 fusion	1	0	0	MN1 rearrangement	MN1::BEND2 fusion	parsed	parsed	0	0
+HIER-0053	H11	EGFR copy number change	EGFR exon 4 copy number deletion	1	1	1	EGFR copy number change	EGFR exon 4 copy number deletion	parsed	parsed	1	0
+HIER-0054	H11	CDKN2A copy number loss	CDKN2A copy number deletion	1	0	0	CDKN2A copy number loss	CDKN2A copy number deletion	parsed	parsed	0	0
+HIER-0055	H11	CDKN2A methylation	CDKN2A hypermethylation	1	0	0	CDKN2A methylation	CDKN2A hypermethylation	parsed	parsed	0	0
+HIER-0056	H12	CALR exon 9 frameshift mutation	CDH1 C688*fs*1	0	0	1	CALR exon 9 frameshift mutation	CDH1 frameshift mutation	parsed	parsed	0	0
+HIER-0057	H12	RFX3 mutation	RHEB gain-of-function	0	0	1	RFX3 mutation	RHEB gain-of-function	parsed	parsed	0	0
+HIER-0058	H12	DICER1 S1344L	DIS3 R780K	0	0	1	DICER1 S1344L	DIS3 R780K	parsed	parsed	0	0
+HIER-0059	H12	FGFR4 amplification	FLT1 amplification	0	0	1	FGFR4 amplification	FLT1 amplification	parsed	parsed	0	0
+HIER-0060	H12	PDE4DIP::NTRK1 fusion	PDGFB fusion	0	0	1	PDE4DIP::NTRK1 fusion	PDGFB fusion	parsed	parsed	0	0
+HIER-0061	H13	SETBP1 G870X	SETBP1 D868N	0	0	1	SETBP1 G870X	SETBP1 D868N	parsed	parsed	0	0
+HIER-0062	H13	SF3B1 T663X	SF3B1 D781E	0	0	1	SF3B1 T663X	SF3B1 D781E	parsed	parsed	0	0
+HIER-0063	H13	HRAS G13X	HRAS A11_G12insPGSG	0	0	1	HRAS G13X	HRAS A11_G12insPGSG	parsed	parsed	0	0
+HIER-0064	H13	DNMT3A R882X	DNMT3A A192E	0	0	1	DNMT3A R882X	DNMT3A A192E	parsed	parsed	0	0
+HIER-0065	H13	FGFR3 K650X	FGFR3 A257V	0	0	1	FGFR3 K650X	FGFR3 A257V	parsed	parsed	0	0
+HIER-0066	H14	ERBB2 exon 19 mutation	ERBB2 A775_G776insTVMA	0	0	1	ERBB2 exon 19 mutation	ERBB2 A775_G776insTVMA	parsed	parsed	0	0
+HIER-0067	H14	NOTCH1 exon 27 mutation	NOTCH1 D1642H	0	0	1	NOTCH1 exon 27 mutation	NOTCH1 D1642H	parsed	parsed	0	0
+HIER-0068	H14	KIT exon 11 mutation	KIT T670I	0	0	1	KIT exon 11 mutation	KIT T670I	parsed	parsed	0	0
+HIER-0069	H14	CBL exon 8 mutation	CBL P417A	0	0	1	CBL exon 8 mutation	CBL P417A	parsed	parsed	0	0
+HIER-0070	H14	MAP2K1 exon 6 mutation	MAP2K1 Q56P	0	0	1	MAP2K1 exon 6 mutation	MAP2K1 Q56P	parsed	parsed	0	0
+HIER-0071	H15	RECQL5 mutation	ATRIP copy number deletion	0	0	1	RECQL5 mutation	ATRIP copy number deletion	parsed	parsed	0	0
+HIER-0072	H15	KDM6A mutation	ARHGAP35 truncating mutation	0	0	1	KDM6A mutation	ARHGAP35 truncating mutation	parsed	parsed	0	0
+HIER-0073	H15	ERCC5 mutation	ALK G1202X	0	0	1	ERCC5 mutation	ALK G1202X	parsed	parsed	0	0
+HIER-0074	H15	TET2 mutation	BCL2L11 deletion	0	0	1	TET2 mutation	BCL2L11 copy number deletion	parsed	parsed	0	0
+HIER-0075	H15	PGR mutation	ATM Q628Pfs*7	0	0	1	PGR mutation	ATM Q628Pfs*7	parsed	parsed	0	0
+HIER-0076	H16	FZR1 amplification	FZR1 copy number deletion	0	unresolved	0			unresolved	unresolved	0	0
+HIER-0077	H16	FLT3 D835X	FLT3 fusion	0	0	1	FLT3 D835X	FLT3 fusion	parsed	parsed	0	0
+HIER-0078	H16	NOTCH1 2245_2536 nonsense mutation	NOTCH1 fusion	0	0	1	NOTCH1 2245_2536 nonsense mutation	NOTCH1 fusion	parsed	parsed	0	0
+HIER-0079	H16	RB1 wild type	RB1 S567L	0	0	1	RB1 wild type	RB1 S567L	parsed	parsed	0	0
+HIER-0080	H16	RRM1 overexpression	RRM1 underexpression	0	0	1	RRM1 overexpression	RRM1 underexpression	parsed	parsed	0	0
+HIER-0081	H17	BRAF T599I	BRAF T599R	0	0	1	BRAF T599I	BRAF T599R	parsed	parsed	0	0
+HIER-0082	H17	PTEN H93R	PTEN H93Y	0	0	1	PTEN H93R	PTEN H93Y	parsed	parsed	0	0
+HIER-0083	H17	MTOR T1977R	MTOR T1977S	0	0	1	MTOR T1977R	MTOR T1977S	parsed	parsed	0	0
+HIER-0084	H17	FOXA1 F266L	FOXA1 F266S	0	0	1	FOXA1 F266L	FOXA1 F266S	parsed	parsed	0	0
+HIER-0085	H17	MAPK1 Y36S	MAPK1 Y36T	0	0	1	MAPK1 Y36S	MAPK1 Y36T	parsed	parsed	0	0
+HIER-0086	H18	SF3B1 R625L	SF3B1 R625X	0	0	1	SF3B1 R625L	SF3B1 R625X	parsed	parsed	0	0
+HIER-0087	H18	PIK3R1 R162*	PIK3R1 truncating mutation	0	0	1	PIK3R1 R162*	PIK3R1 truncating mutation	parsed	parsed	0	0
+HIER-0088	H18	LRP1B exon 12-22 copy number deletion	LRP1B mutation	0	0	1	LRP1B exon 12-22 copy number deletion	LRP1B mutation	parsed	parsed	0	0
+HIER-0089	H18	EGFR D770_N771insNPG	EGFR exon 20 insertion	0	0	1	EGFR D770_N771insNPG	EGFR exon 20 in-frame insertion	parsed	parsed	0	0
+HIER-0090	H18	BAP1 F81V	BAP1 mutation	0	0	1	BAP1 F81V	BAP1 mutation	parsed	parsed	0	0
+HIER-0091	H19	RBM15 fusion	RCSD1::ABL1 fusion	0	0	1	RBM15 fusion	RCSD1::ABL1 fusion	parsed	parsed	0	0
+HIER-0092	H19	SQSTM1::NTRK1 fusion	SS18 fusion	0	0	1	SQSTM1::NTRK1 fusion	SS18 fusion	parsed	parsed	0	0
+HIER-0093	H19	TPR::JAK2 fusion	TPR::NTRK1 fusion	0	0	1	TPR::JAK2 fusion	TPR::NTRK1 fusion	parsed	parsed	0	0
+HIER-0094	H19	v::NTRK2 fusion	v::NTRK3 fusion	0	0	1	v::NTRK2 fusion	v::NTRK3 fusion	parsed	parsed	0	0
+HIER-0095	H19	EML4::NTRK3 fusion	EP300 fusion	0	0	1	EML4::NTRK3 fusion	EP300 fusion	parsed	parsed	0	0
+HIER-0096	H20	EGFR activating mutation	EGFR inactivating mutation	0	0	1	EGFR activating mutation	EGFR inactivating mutation	parsed	parsed	0	0
+HIER-0097	H20	BRAF oncogenic mutation	BRAF benign or neutral mutation	0	0	1	BRAF oncogenic mutation	BRAF neutral mutation	parsed	parsed	0	0
+HIER-0098	H20	TP53 likely oncogenic mutation	TP53 inconclusive mutation	0	0	1	TP53 likely oncogenic mutation	TP53 inconclusive mutation	parsed	parsed	0	0
+HIER-0099	H20	BRAF switch-of-function	BRAF neutral mutation	0	0	1	BRAF switch-of-function	BRAF neutral mutation	parsed	parsed	0	0
+HIER-0100	H20	NF1 loss-of-function	NF1 gain-of-function	0	0	1	NF1 loss-of-function	NF1 gain-of-function	parsed	parsed	0	0
+HIER-0101	H21	EGFR activating mutation	EGFR copy number deletion	0	0	1	EGFR activating mutation	EGFR copy number deletion	parsed	parsed	0	0
+HIER-0102	H21	NF1 inactivating mutation	NF1 amplification	0	0	1	NF1 inactivating mutation	NF1 amplification	parsed	parsed	0	0
+HIER-0103	H21	BRAF benign or neutral mutation	BRAF V600E	0	0	1	BRAF neutral mutation	BRAF V600E	parsed	parsed	0	0
+HIER-0104	H21	TP53 inconclusive mutation	TP53 truncating mutation	0	0	1	TP53 inconclusive mutation	TP53 truncating mutation	parsed	parsed	0	0
+HIER-0105	H21	BRAF switch-of-function	BRAF amplification	0	0	1	BRAF switch-of-function	BRAF amplification	parsed	parsed	0	0

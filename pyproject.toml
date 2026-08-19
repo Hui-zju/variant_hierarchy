@@ -1,0 +1,55 @@
+[build-system]
+requires = ["setuptools>=77", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "variant-hierarchy"
+version = "0.2.0"
+description = "Query precomputed cancer variant hierarchy relations with lightweight variant normalization."
+readme = "README.md"
+requires-python = ">=3.10"
+license = "Apache-2.0"
+license-files = ["LICENSE"]
+authors = [
+    { name = "VariantHierarchy contributors" }
+]
+keywords = ["cancer", "variant", "hierarchy", "normalization", "bioinformatics"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Bio-Informatics",
+]
+dependencies = []
+
+[project.optional-dependencies]
+seqcat = ["requests>=2"]
+vicc = ["requests>=2"]
+genomic = [
+    "hgvs",
+    "cool-seq-tool",
+    "biocommons.seqrepo",
+]
+research = [
+    "requests>=2",
+    "pandas>=2",
+    "PyYAML>=6",
+    "pyparsing>=3",
+    "hgvs",
+    "cool-seq-tool",
+    "biocommons.seqrepo",
+]
+dev = [
+    "build",
+    "twine",
+    "pytest",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+variant_hierarchy = ["data/*.json", "data/*.tsv", "data/*.txt"]

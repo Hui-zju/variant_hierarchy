@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variant Hierarchy Visualization</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<body>
+    <main id="app">
+        <section id="top-panel">
+            <div class="title-row">
+                <h1>Variant Hierarchy</h1>
+                <button id="reset-view" type="button">Reset view</button>
+            </div>
+
+            <div id="search-container">
+                <div class="control-wrapper" id="mode-control">
+                    <label for="view-mode">Visualization mode</label>
+                    <select id="view-mode">
+                        <option value="gene">Gene hierarchy</option>
+                        <option value="node">Node hierarchy</option>
+                    </select>
+                </div>
+
+                <div class="search-wrapper" id="gene-search-wrapper">
+                    <label for="gene-search-box">Gene</label>
+                    <input type="text" id="gene-search-box" placeholder="Search for a gene">
+                    <div id="gene-search-results" class="search-results"></div>
+                </div>
+
+                <div class="search-wrapper" id="node-search-wrapper" hidden>
+                    <label for="search-box">Variant node</label>
+                    <input id="search-box" type="text" placeholder="Search for a node">
+                    <div id="search-results" class="search-results"></div>
+                </div>
+
+                <div id="path-control" class="path-control" hidden>
+                    <label for="path-select">Parent path</label>
+                    <select id="path-select" disabled>
+                        <option>Search a node first</option>
+                    </select>
+                </div>
+            </div>
+
+            <div id="status-bar"></div>
+        </section>
+
+        <section id="visualization">
+            <svg id="tree-svg"></svg>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
